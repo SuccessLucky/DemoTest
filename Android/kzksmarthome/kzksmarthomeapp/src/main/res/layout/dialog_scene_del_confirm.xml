@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scene_del_confirm_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_tv_operation_dialog_btn_normal_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+            <TextView
+                android:id="@+id/scene_del_confirm_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/scene_del_title_str"
+                android:textColor="@color/black_20"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/scene_del_confirm_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/scene_del_hint_str"
+            android:textColor="@color/control_gary"
+            android:textSize="15sp" />
+
+        <View style="@style/horizontal_line"
+            android:background="@color/color_0090ff"
+            android:layout_marginTop="40dp"/>
+
+        <LinearLayout
+            android:id="@+id/scene_del_confirm_btn_ll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/scene_del_confirm_cancel"
+                style="@style/dialog_btn"
+                android:text="@string/hint_cannel"
+                android:background="@drawable/selector_dialog_item_left_corner_round"/>
+
+            <View style="@style/vertical_line"
+                android:background="@color/color_0090ff"/>
+
+            <TextView
+                android:id="@+id/scene_del_confirm_ensure"
+                style="@style/dialog_btn"
+                android:text="@string/bt_ok_str"
+                android:background="@drawable/selector_dialog_item_right_corner_round"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

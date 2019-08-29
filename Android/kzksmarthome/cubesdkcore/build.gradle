@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 16
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+    lintOptions {
+        abortOnError false
+        absolutePaths false
+    }
+}
+
+dependencies {
+    compile files('libs/clog-1.0.2-sources.jar')
+    compile files('libs/clog-1.0.2.jar')
+    //noinspection GradleCompatible
+    compile 'com.android.support:support-v4:24.2.1'
+}

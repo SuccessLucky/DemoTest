@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="6dp"
+        android:background="@color/main_bg_color">
+
+        <ImageView
+            android:id="@+id/push_window_ctr_iv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/push_window_ctr_closed" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/push_window_switch_iv"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/curtain_switch_on" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

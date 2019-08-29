@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.kzksmarthome.SmartHouseYCT"
+        minSdkVersion 14
+        targetSdkVersion 21
+        //multiDexEnabled true
+    }
+
+
+    signingConfigs {
+        debug {
+            storeFile file("cmwrelease.keystore")
+            storePassword "cmw123456"
+            keyAlias "cmwkey"
+            keyPassword "cmw123456"
+        }
+        release{
+            storeFile file("cmwrelease.keystore")
+            storePassword "cmw123456"
+            keyAlias "cmwkey"
+            keyPassword "cmw123456"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+    /*compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }*/
+    lintOptions {
+        abortOnError false
+        absolutePaths false
+        lintConfig file("lint.xml")
+        disable "ResourceType"
+    }
+    productFlavors {
+    }
+
+}
+
+dependencies {
+    compile files('libs/bugly_1.2.3.8_release.jar')
+    compile files('libs/upload_1.1.1.71_3632.jar')
+    compile files('libs/wup-1.0.0-SNAPSHOT.jar')
+    compile project(':kzksmarthomelib')
+    compile project(':androidPullToRefreshRecyclerViewlibrary')
+    compile files('libs/GetuiSDK2.9.2.0.jar')
+    compile files('libs/umeng_social_sdk.jar')
+    compile files('libs/easylink_only.jar')
+    compile files('libs/micomdns_out.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/Sunflower.jar')
+    compile files('libs/Msc.jar')
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+}

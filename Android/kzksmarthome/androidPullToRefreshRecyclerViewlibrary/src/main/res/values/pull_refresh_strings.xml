@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">放开刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载</string>
+
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开加载</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在加载</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_no_more">没有更多了</string>
+</resources>

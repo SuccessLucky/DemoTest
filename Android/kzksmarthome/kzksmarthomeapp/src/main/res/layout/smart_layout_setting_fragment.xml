@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_f3"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/setting_push_switch_rl"
+                style="@style/setting_item_style"
+                android:layout_marginTop="10dp"
+                android:background="@color/layout_bg_normal"
+                android:focusable="false"
+                android:focusableInTouchMode="false">
+
+                <ImageView
+                    android:id="@+id/setting_push_switch_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:src="@drawable/smart_setting_switch_gw" />
+
+                <TextView
+                    android:id="@+id/setting_push_switch_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:layout_toRightOf="@id/setting_push_switch_iv"
+                    android:text="@string/setting_push_switch_str"
+                    android:textColor="@color/setting_black"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/setting_push_switch_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_30px"
+                    android:background="@drawable/smart_check_off" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_vibrate_rl"
+                style="@style/setting_item_style"
+                android:layout_marginTop="10dp"
+                android:background="@color/layout_bg_normal"
+                android:focusable="false"
+                android:focusableInTouchMode="false">
+
+                <ImageView
+                    android:id="@+id/setting_vibrate_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:src="@drawable/smart_setting_rights" />
+
+                <TextView
+                    android:id="@+id/setting_vibrate_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:layout_toRightOf="@id/setting_vibrate_iv"
+                    android:text="@string/setting_vibrate_switch_str"
+                    android:textColor="@color/setting_black"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/setting_vibrate_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_30px"
+                    android:background="@drawable/smart_check_off" />
+            </RelativeLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_ringtone_select_rl"
+                style="@style/setting_item_style">
+
+                <ImageView
+                    android:id="@+id/setting_ringtone_select_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:src="@drawable/smart_setting_security" />
+
+                <TextView
+                    android:id="@+id/setting_ringtone_select_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:layout_toRightOf="@id/setting_ringtone_select_iv"
+                    android:text="@string/setting_ringtone_select_str"
+                    android:textColor="@color/setting_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_30px"
+                    android:src="@drawable/smart_list_item_go" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

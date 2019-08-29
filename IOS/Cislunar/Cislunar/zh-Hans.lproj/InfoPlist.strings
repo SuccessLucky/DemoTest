@@ -1,0 +1,156 @@
+/* 
+  InfoPlist.strings
+  Cislunar
+
+  Created by 余长涛 on 2018/10/20.
+  Copyright © 2018年 余长涛. All rights reserved.
+*/
+"done"="确定";
+"cancel"="取消";
+"retry"="重试";
+"alert_title"="提示";
+"delete"="删除";
+"complete"="完成";
+"push_slider_msg"="你需自行处理滑动进入的推送消息";
+
+"api_mirror_test"="镜像翻转接口测试";
+"api_getting_device_list"="正在获取用户设备列表...";
+"api_get_device_list_fail"="设备列表获取失败";
+"api_flip_over"="正在操作设备通道画面翻转...";
+"api_flip_over_result"="画面翻转结果";
+"ad_scan_qr_title"="扫描二维码";
+"ad_allow_camera"="请在设备的`设置-隐私-相机`中允许访问相机。";
+"ad_not_support_scan"="不支持的二维码类型，转用手动输入";
+"ad_result_title"="结果";
+"ad_adding_msg"="正在添加，请稍候...";
+"ad_connect_net"="连接网络";
+"ad_add"="添加";
+"ad_restart_title"="重启设备";
+"ad_restart_tip"="长按设备上的reset键10秒后松开，并等待大约30秒直到设备启动完成";
+"ad_restart_done"="我已重启好";
+"ad_get_device_info_msg"="正在查询设备信息，请稍后...";
+"ad_already_added"="您已添加过此设备";
+"ad_added_by_others"="此设备已被别人添加";
+"get_info_fail"="查询失败，网络不给力";
+"ad_input_manual"="手动输入";
+
+"device_camera_list_title"="设备通道列表";
+"device_input_vierify_code"="请输入设备验证码";
+"device_verify_code_wrong"="验证码错误";
+"device_scan_function_tip"="iOS 7.0以下扫码功能请自行实现";
+"device_upgrade_title"="设备升级";
+"device_upgrade_success"="升级成功";
+"device_upgrading"="正在升级中";
+"device_modify_name_title"="修改设备名称";
+"device_quality_high"="高清";
+"device_quality_median"="均衡";
+"device_quality_low"="流畅";
+"device_quality_super"="超清";
+"device_play_fail"="播放失败";
+"device_input_verify_code"="请输入视频图片加密密码";
+"device_verify_code_tip"="您的视频已加密，请输入密码进行查看，初始密码为机身标签上的验证码，如果没有验证码，请输入ABCDEF（密码区分大小写)";
+"device_tip_title"="温馨提示";
+"device_verify_code_wrong"="设备密码错误";
+"device_restart_talk"="正在开启对讲，请稍候...";
+"device_save_gallery"="已保存至手机相册";
+"device_analogue_camera"="模拟通道";
+"device_digital_camera"="数字通道";
+"device_lan_device_list_title"="局域网设备列表";
+"device_active_device"="激活设备";
+"device_set_pw_tip"="请设置密码,密码为8-16位的字符";
+"device_set_pw"="设置密码";
+"device_pw_empty"="密码不能为空";
+"device_pw_length_error"="密码长度不正确";
+"device_active_fail"="激活失败";
+"device_login_fail"="登录失败";
+"device_login_device"="登录设备";
+"device_input_account_pw"="请输入帐号和密码";
+"device_account"="帐号";
+"device_password"="密码";
+"device_account_pw_empty"="帐号或密码不能为空";
+"device_lan_preview_title"="局域网预览";
+
+"dmessage_title"="消息";
+"message_read"="标记已读";
+"message_deleting"="正在删除，请稍候...";
+"message_count_limit"="数量不能超过10";
+"message_setting"="正在设置已读，请稍候...";
+"message_sunday"="周日";
+"message_monday"="周一";
+"message_tuesday"="周二";
+"message_wednesday"="周三";
+"message_thursday"="周四";
+"message_friday"="周五";
+"message_saturday"="周六";
+"message_today"="今天";
+"message_from"="来自";
+"message_detail"="消息详情";
+"message_file_search_fail"="文件查询失败";
+"message_square_test"="视频广场类别单元测试";
+
+"setting_device_set_title"="设备设置";
+"setting_device_name"="设备名";
+"setting_device_serial"="序列号";
+"setting_device_version"="当前版本";
+"setting_device_new_version"="最新版本";
+"setting_defense_status"="防护状态：";
+"setting_sleep_mode"="睡眠模式";
+"setting_home_mode"="在家模式";
+"setting_out_mode"="外出模式";
+"setting_ignore_code"="告警主机无视频图片加密功能";
+"setting_action_detect"="活动检测提醒";
+"setting_secure_code"="视频图片加密";
+"setting_cloud_storage"="云存储";
+"setting_opration_fail"="操作失败";
+"setting_opration_success"="操作成功";
+"setting_switching"="正在切换，请稍候...";
+"setting_device_security_check"="设备操作安全验证";
+"setting_input_code_plz"="请输入该设备的设备验证码（设备标签上的6位字母）";
+"wifi_add_device_title"="第三步，添加设备";
+"wifi_connecting_net"="萤小石正在努力连接Wi-Fi网络";
+"wifi_register_server"="注册平台服务器";
+"wifi_bind_account"="绑定你的账号";
+"wifi_already_configed"="已配置好Wi-Fi网络";
+"wifi_registering_server"="快了快了,正在注册平台服务器";
+"wifi_bind_account_result"="绑到你的账号下就大功告成了哦";
+"wifi_already_registered_server"="已注册到萤石平台";
+"wifi_config_fail"="配置Wi-Fi失败，请重试或返回检查Wi-Fi密码是否输入正确";
+"wifi_register_fail"="Wi-Fi配置成功,注册平台失败,请检查设备网络后重试";
+"wifi_bind_fail"="Wi-Fi配置成功,绑定账号失败,请重试";
+"wifi_add_fail"="添加失败";
+"wifi_add_success"="添加成功";
+"wifi_connecting_net"="正在连接Wi-Fi网络";
+"wifi_connect_wifi_title"="第二步，连接WiFi";
+"wifi_prepare_title"="第一步，准备好设备";
+"wifi_device_power_tip"="请将设备插上电后等待大约30秒，直到设备启动完成";
+"wifi_device_start_ready"="设备已启动好，且是第一次配置网络";
+"wifi_config_wifi_ago"="这台设备以前配过网络";
+
+"ui_last_update"="最后更新：";
+"ui_last_update_empty"="最后更新：无记录";
+"ui_just_now"="刚刚";
+"ui_min_ago"="分钟前";
+"ui_hour_ago"="小时前";
+"ui_day_ago"="天前";
+"ui_month_ago"="月前";
+"ui_year_ago"="年前";
+
+//新增
+"device_mine"="我的";
+"device_shared"="分享";
+
+//4.8.3新增
+"no_mic_permission" = "未开启麦克风权限";
+"not_support_talk" = "设备不支持对讲";
+
+//ap配网新增
+"wifi_info_no_wifi_msg" = "未连接Wi-Fi,请设置合适的Wi-Fi";
+"wifi_info_setting" = "设置";
+"wifi_mode_select_msg" = "请选择配网模式";
+"wifi_mode_ap" = "热点配网(蓝灯闪烁)";
+"wifi_mode_normal" = "一般配网(红蓝闪烁)";
+"wifi_mode_wifi_connect" = "连接到设备Wi-Fi";
+"wifi_step_two_msg" = "进入手机系统Wi-Fi设置界面，选择名称为%@的网络，用提示的密码进行连接";
+"wifi_ap_add_device_title"="添加设备";
+"wifi_mode_sound" = "声波配网(红蓝闪烁)";
+"wifi_mode_line" = "有线连接";

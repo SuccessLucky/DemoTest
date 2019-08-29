@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CommonCollectionViewCell" reuseIdentifier="CommonCollectionViewCell" id="gTV-IL-0wX" customClass="CommonCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="178"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="178"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRP-TJ-g8t">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="FRP-TJ-g8t" secondAttribute="height" id="7nt-fK-bi8"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgh-u9-17D">
+                        <rect key="frame" x="0.0" y="135" width="120" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="FRP-TJ-g8t" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2rM-Ae-gCz"/>
+                <constraint firstAttribute="bottom" secondItem="wgh-u9-17D" secondAttribute="bottom" id="KmS-RS-rzM"/>
+                <constraint firstItem="FRP-TJ-g8t" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="W06-nv-DJS"/>
+                <constraint firstAttribute="trailing" secondItem="FRP-TJ-g8t" secondAttribute="trailing" id="lbR-gu-bgf"/>
+                <constraint firstAttribute="trailing" secondItem="wgh-u9-17D" secondAttribute="trailing" id="o8l-7F-CLQ"/>
+                <constraint firstItem="wgh-u9-17D" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="psR-LH-Evl"/>
+                <constraint firstItem="wgh-u9-17D" firstAttribute="top" secondItem="FRP-TJ-g8t" secondAttribute="bottom" constant="15" id="tpk-bt-qg3"/>
+            </constraints>
+            <size key="customSize" width="161" height="135"/>
+            <connections>
+                <outlet property="btnImage" destination="FRP-TJ-g8t" id="BNN-nU-c7B"/>
+                <outlet property="labelTitle" destination="wgh-u9-17D" id="JML-Ig-VgI"/>
+            </connections>
+            <point key="canvasLocation" x="89" y="123"/>
+        </collectionViewCell>
+    </objects>
+</document>

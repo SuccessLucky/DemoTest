@@ -1,0 +1,95 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target “Cislunar” do
+    pod 'FMDB',                 '~> 2.7.2'
+    pod 'BlocksKit',            '~> 2.2.5'
+    pod 'CocoaAsyncSocket', 	'~> 7.4.1'
+    pod 'KVOController',		'~> 1.0.2'
+    pod 'Reachability'
+    pod 'Masonry',              '~> 1.0.2'
+    pod 'AFNetworking',         '~> 3.1.0'
+    pod 'LCActionSheet'
+    #    // 必须
+    pod 'SDWebImage'
+    #    // 可选 使用GIF
+    pod 'SDWebImage/GIF’
+    #    // 可选 使用WebP
+    pod 'SDWebImage/WebP’
+
+    #pod 'GTSDK'
+#    pod 'RealReachability'
+    pod 'IQKeyboardManager'
+    
+    pod 'mobAPI'
+    #pod 'MobAPI-For-iOS'
+    #pod 'MOBFoundation'
+    #pod 'SMSSDK'
+    pod 'LEEAlert'
+    
+    pod 'GTSDK', '2.3.0.0-noidfa'
+    
+    #新https://github.com/liuchongfaye/NSUserDefaultsModel
+    pod 'NSUserDefaultsModel'
+    #新https://github.com/lsmakethebest/LSSafeProtector
+#    pod 'LSSafeProtector'
+    #新https://github.com/liuchongfaye/NSTimerInprovement
+    pod 'NSTimerImprovement'
+    
+    #新https://github.com/duyi56432/DYModelMaker     导入#import "NSObject+DYModelMaker.h"
+    pod 'DYModelMaker'
+    
+    #新https://github.com/HDB-Li/LLDebugTool/blob/master/README-cn.md
+    pod 'LLDebugTool'
+#    pod 'LLDebugTool' , '~> 1.0.0'
+#    pod 'LLDebugTool' , '~> 1.0.0' ,:configurations => ['Debug']
+    #新https://github.com/axclogo/AxcAE_TabBar 
+    pod 'AxcAE_TabBar'
+    
+    #新https://github.com/MC-Studio/MCJSONKit   轻量级JSON转换库
+    pod 'MCJSONKit'
+    
+##    新https://github.com/CaffreySun/CFYNavigationBarTransition
+#    pod 'CFYNavigationBarTransition'
+
+    #https://github.com/pujiaxin33/JXCategoryView   特斯拉
+    pod 'JXCategoryView'
+#    https://github.com/pujiaxin33/JXPagingView
+    pod 'JXPagingView/Pager'
+    
+#    https://github.com/CoderMJLee/MJRefresh  刷新第三方
+    pod 'MJRefresh'
+    
+#    萤石摄像头  http://open.ys7.com/doc/zh/uikit/uikit_ios.html
+    pod 'EZUIKit'
+    
+#    提示框  https://github.com/chenliangloveyou/EasyShowView
+    pod 'EasyShowView','~>2.1'
+    
+    pod 'MBProgressHUD', '~> 1.1.0'
+    
+    pod 'XWHUDManager'
+
+
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+        end
+    end
+end
+
+
+
+end
+
+
+
+target 'NotificationService' do
+    
+    platform :ios, "10.0"
+    
+    pod 'GTExtensionSDK'
+end

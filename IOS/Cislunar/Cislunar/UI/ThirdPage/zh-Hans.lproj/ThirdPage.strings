@@ -1,0 +1,126 @@
+
+/* Class = "UILabel"; text = "暂无消息"; ObjectID = "1ZS-el-IsY"; */
+"1ZS-el-IsY.text" = "暂无消息";
+
+/* Class = "UIButton"; normalTitle = "消息录像"; ObjectID = "2Zx-1V-SeI"; */
+"2Zx-1V-SeI.normalTitle" = "消息录像";
+
+/* Class = "UIButton"; normalTitle = "SD卡录像"; ObjectID = "2f6-Yv-7Kj"; */
+"2f6-Yv-7Kj.normalTitle" = "SD卡录像";
+
+/* Class = "UIBarButtonItem"; title = "删除"; ObjectID = "3IX-X0-E3o"; */
+"3IX-X0-E3o.title" = "删除";
+
+/* Class = "UITextField"; placeholder = "请输入设备名称"; ObjectID = "6Je-oc-x07"; */
+"6Je-oc-x07.placeholder" = "请输入设备名称";
+
+/* Class = "UIBarButtonItem"; title = "确定"; ObjectID = "6uB-Yf-JkJ"; */
+"6uB-Yf-JkJ.title" = "确定";
+
+/* Class = "UILabel"; text = "9:00"; ObjectID = "9Eg-O0-jd5"; */
+"9Eg-O0-jd5.text" = "9:00";
+
+/* Class = "UILabel"; text = "9:00"; ObjectID = "B14-tI-xgf"; */
+"B14-tI-xgf.text" = "9:00";
+
+/* Class = "UILabel"; text = "  00:00"; ObjectID = "CdZ-kr-gq3"; */
+"CdZ-kr-gq3.text" = "  00:00";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "EC0-rj-Jh8"; */
+"EC0-rj-Jh8.text" = "00:00";
+
+/* Class = "UILabel"; text = "空空如也"; ObjectID = "FOB-Mf-cPO"; */
+"FOB-Mf-cPO.text" = "空空如也";
+
+/* Class = "UIButton"; normalTitle = "对讲"; ObjectID = "FjD-aq-0We"; */
+"FjD-aq-0We.normalTitle" = "对讲";
+
+/* Class = "UILabel"; text = "2015/11/18 19:12:22"; ObjectID = "INb-7f-Uda"; */
+"INb-7f-Uda.text" = "2015/11/18 19:12:22";
+
+/* Class = "UIBarButtonItem"; title = "标记已读"; ObjectID = "JQf-HF-l28"; */
+"JQf-HF-l28.title" = "标记已读";
+
+/* Class = "UILabel"; text = "人体感应事件"; ObjectID = "KQQ-Lz-d1h"; */
+"KQQ-Lz-d1h.text" = "人体感应事件";
+
+/* Class = "UILabel"; text = "123456789"; ObjectID = "L6e-F6-0M0"; */
+"L6e-F6-0M0.text" = "123456789";
+
+/* Class = "UILabel"; text = "C2S"; ObjectID = "Ln6-Pl-bRO"; */
+"Ln6-Pl-bRO.text" = "C2S";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "OJK-iX-edQ"; */
+"OJK-iX-edQ.text" = "00:00";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "Qi7-Zm-8sr"; */
+"Qi7-Zm-8sr.title" = "取消";
+
+/* Class = "UIButton"; normalTitle = "高清"; ObjectID = "U4x-IX-Lyz"; */
+"U4x-IX-Lyz.normalTitle" = "高清";
+
+/* Class = "UISegmentedControl"; XUt-Al-xEN.segmentTitles[0] = "我的"; ObjectID = "XUt-Al-xEN"; */
+"XUt-Al-xEN.segmentTitles[0]" = "我的";
+
+/* Class = "UISegmentedControl"; XUt-Al-xEN.segmentTitles[1] = "分享"; ObjectID = "XUt-Al-xEN"; */
+"XUt-Al-xEN.segmentTitles[1]" = "分享";
+
+/* Class = "UIButton"; normalTitle = "录像"; ObjectID = "ZqB-lt-ZAt"; */
+"ZqB-lt-ZAt.normalTitle" = "录像";
+
+/* Class = "UILabel"; text = "来自：C2mini"; ObjectID = "alw-bB-vDx"; */
+"alw-bB-vDx.text" = "来自：C2mini";
+
+/* Class = "UILabel"; text = "  00:00"; ObjectID = "bec-Cz-AOm"; */
+"bec-Cz-AOm.text" = "  00:00";
+
+/* Class = "UIButton"; normalTitle = "截图"; ObjectID = "fI2-AN-akB"; */
+"fI2-AN-akB.normalTitle" = "截图";
+
+/* Class = "UIButton"; normalTitle = "录像"; ObjectID = "hPf-u9-w9O"; */
+"hPf-u9-w9O.normalTitle" = "录像";
+
+/* Class = "UILabel"; text = "正在更新..."; ObjectID = "l7P-0g-jqN"; */
+"l7P-0g-jqN.text" = "正在更新...";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "lYK-fX-cgg"; */
+"lYK-fX-cgg.text" = "00:00";
+
+/* Class = "UIButton"; normalTitle = "流畅"; ObjectID = "oZi-h0-BPe"; */
+"oZi-h0-BPe.normalTitle" = "流畅";
+
+/* Class = "UIButton"; normalTitle = "云台"; ObjectID = "pzj-sa-ceJ"; */
+"pzj-sa-ceJ.normalTitle" = "云台";
+
+/* Class = "UILabel"; text = "不超过50个字符"; ObjectID = "qlC-xh-MsQ"; */
+"qlC-xh-MsQ.text" = "不超过50个字符";
+
+/* Class = "UIButton"; normalTitle = "云存储"; ObjectID = "rFm-VN-YhX"; */
+"rFm-VN-YhX.normalTitle" = "云存储";
+
+/* Class = "UIButton"; normalTitle = "均衡"; ObjectID = "rfj-rj-vsq"; */
+"rfj-rj-vsq.normalTitle" = "均衡";
+
+/* Class = "UIButton"; normalTitle = "高清"; ObjectID = "sPw-Zw-mbC"; */
+"sPw-Zw-mbC.normalTitle" = "高清";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "t9w-k3-Ey1"; */
+"t9w-k3-Ey1.text" = "00:00";
+
+/* Class = "UILabel"; text = "发生人体感应事件"; ObjectID = "tWi-PQ-N8L"; */
+"tWi-PQ-N8L.text" = "发生人体感应事件";
+
+/* Class = "UILabel"; text = "来自:123456789"; ObjectID = "u6I-YX-k9g"; */
+"u6I-YX-k9g.text" = "来自:123456789";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "wos-WP-FVH"; */
+"wos-WP-FVH.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "设备名"; ObjectID = "x8I-Nj-K9L"; */
+"x8I-Nj-K9L.text" = "设备名";
+
+/* Class = "UIButton"; normalTitle = "更新"; ObjectID = "yof-B9-kUq"; */
+"yof-B9-kUq.normalTitle" = "更新";
+
+/* Class = "UIButton"; normalTitle = "截图"; ObjectID = "z8P-xN-89p"; */
+"z8P-xN-89p.normalTitle" = "截图";

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ScreenCVCell" reuseIdentifier="ScreenCVCell" id="gTV-IL-0wX" customClass="ScreenCVCell">
+            <rect key="frame" x="0.0" y="0.0" width="210" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="210" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikK-Fs-mxO">
+                        <rect key="frame" x="0.0" y="143" width="210" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ikK-Fs-mxO" secondAttribute="height" multiplier="105:16" id="c4z-Jx-On6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzm-fL-sd4">
+                        <rect key="frame" x="40" y="5" width="130" height="130"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Vzm-fL-sd4" secondAttribute="height" multiplier="1:1" id="5Ui-Ai-YhR"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="140" id="N2d-PJ-dYJ"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="140" id="TvM-di-k5i"/>
+                        </constraints>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Vzm-fL-sd4" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="3Wq-CH-dJA"/>
+                <constraint firstAttribute="trailing" secondItem="ikK-Fs-mxO" secondAttribute="trailing" id="3if-Iq-z7n"/>
+                <constraint firstItem="ikK-Fs-mxO" firstAttribute="top" secondItem="Vzm-fL-sd4" secondAttribute="bottom" constant="8" id="7Nd-Oi-z2x"/>
+                <constraint firstItem="Vzm-fL-sd4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="TTU-jm-4R9"/>
+                <constraint firstAttribute="bottom" secondItem="ikK-Fs-mxO" secondAttribute="bottom" constant="5" id="bEW-L2-Gmg"/>
+                <constraint firstItem="ikK-Fs-mxO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="g4v-V9-bY4"/>
+            </constraints>
+            <connections>
+                <outlet property="btnItem" destination="Vzm-fL-sd4" id="k4E-1i-ABY"/>
+                <outlet property="labelName" destination="ikK-Fs-mxO" id="Bbv-UL-Rqg"/>
+            </connections>
+            <point key="canvasLocation" x="52.799999999999997" y="84.557721139430285"/>
+        </collectionViewCell>
+    </objects>
+</document>

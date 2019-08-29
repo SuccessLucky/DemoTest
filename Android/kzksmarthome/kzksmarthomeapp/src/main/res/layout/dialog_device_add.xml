@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_add_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_tv_operation_dialog_btn_normal_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+            <TextView
+                android:id="@+id/device_add_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/device_add_str"
+                android:textColor="@color/setting_black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/device_add_name_et"
+            style="@style/dialog_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/device_add_name_hint_str"
+            android:paddingLeft="10dp" />
+
+        <GridView
+            android:id="@+id/device_add_type_grid"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/white"
+            android:listSelector="@null"
+            android:numColumns="4" />
+
+        <View
+            style="@style/horizontal_line"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_0090ff" />
+
+        <LinearLayout
+            android:id="@+id/device_add_btn_ll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/device_add_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_dialog_item_left_corner_round"
+                android:gravity="center"
+                android:text="@string/hint_cannel"
+                android:textColor="@color/color_0090ff"
+                android:textSize="16sp" />
+
+            <View
+                style="@style/vertical_line"
+                android:background="@color/color_0090ff" />
+
+            <TextView
+                android:id="@+id/device_add_ensure"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_dialog_item_right_corner_round"
+                android:gravity="center"
+                android:text="@string/bt_ok_str"
+                android:textColor="@color/color_0090ff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <com.kzksmarthome.common.biz.widget.SquareCenterImageView
+        android:id="@+id/child_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/mark_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:src="@drawable/upload_img_delete"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

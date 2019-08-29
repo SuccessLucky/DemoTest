@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dip"
+    android:layout_height="140dip"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@drawable/toast_bg"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1" >
+
+
+        <com.kzksmarthome.common.biz.widget.LoadingView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/load_img_loading" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dip"
+        android:gravity="center"
+        android:text="@string/upgrade_checking"
+        android:textColor="@color/activity_bg_gray"
+        android:textSize="16sp" />
+
+</LinearLayout>

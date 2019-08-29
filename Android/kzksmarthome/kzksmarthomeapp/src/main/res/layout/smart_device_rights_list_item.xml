@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart_device_rights_list_item_rl"
+    android:background="@drawable/list_item_background"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+
+    <ImageView
+        android:id="@+id/smart_device_rights_list_icon_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/smart_device_rights_list_select_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/upload_icon_choose2_un"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/smart_device_rights_list_select_iv"
+        android:layout_toRightOf="@id/smart_device_rights_list_icon_iv"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/smart_device_rights_list_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/smart_device_rights_list_desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/smart_device_rights_list_name_tv"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/horizontal_line"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="55dp" />
+
+</RelativeLayout>

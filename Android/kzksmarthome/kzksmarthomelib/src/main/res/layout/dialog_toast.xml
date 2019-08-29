@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/pop_bg_black75"
+    android:drawablePadding="@dimen/margin_24px"
+    android:gravity="center"
+    android:paddingBottom="@dimen/margin_48px"
+    android:paddingLeft="@dimen/margin_60px"
+    android:paddingRight="@dimen/margin_60px"
+    android:paddingTop="@dimen/margin_48px"
+    android:text="@string/dialog_default_confirm_title"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/textsize_16sp" />

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F8F8F8"
+	android:orientation="vertical">
+  <RelativeLayout
+	  android:layout_marginTop="10dp"
+	  android:layout_width="match_parent"
+	  android:layout_height="200dp">
+	<com.kzksmarthome.SmartHouseYCT.widget.ColorPicker
+		android:id="@+id/color_picker"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_centerInParent="true"
+		android:scaleType="center"/>
+
+	<ImageButton
+		android:id="@+id/collor_light_switch_ib"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="25dp"
+		android:layout_marginRight="30dp"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/smart_check_off"
+		android:clickable="true"/>
+   </RelativeLayout>
+
+	<SeekBar
+		android:id="@+id/collor_light_ctr_seekbar"
+		style="@style/Widget.SeekBar.Normal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="20dp"
+		android:max="240"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:visibility="visible"/>
+
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="20dp"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:id="@+id/tv_mode_right_now"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:background="@drawable/shape_3_item_left_pressed"
+			android:gravity="center"
+			android:text="直接"
+			android:textColor="@color/white"
+			android:textSize="14sp"/>
+
+		<!--<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/a1_blue_color"/>-->
+
+		<TextView
+			android:id="@+id/tv_mode_gradually"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:layout_marginLeft="-0.5dp"
+			android:background="@drawable/shape_3_item_center_normal"
+			android:gravity="center"
+			android:text="渐渐"
+			android:textColor="@color/a1_blue_color"
+			android:textSize="14sp"/>
+
+		<!--<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/a1_blue_color"/>-->
+
+		<TextView
+			android:id="@+id/tv_mode_delay"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:layout_marginLeft="-0.5dp"
+			android:background="@drawable/shape_3_item_right_normal"
+			android:gravity="center"
+			android:text="延时"
+			android:textColor="@color/a1_blue_color"
+			android:textSize="14sp"/>
+	</LinearLayout>
+    <EditText
+		android:visibility="invisible"
+		android:layout_marginTop="10dp"
+		android:id="@+id/color_light_ys_time"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:inputType="number"
+		android:textSize="12sp"
+		/>
+
+	<LinearLayout
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:id="@+id/tv_mode_dk"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:background="@drawable/shape_3_item_left_pressed"
+			android:gravity="center"
+			android:text="单控"
+			android:textColor="@color/white"
+			android:textSize="14sp"/>
+
+		<!--<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/a1_blue_color"/>-->
+
+		<!--<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/a1_blue_color"/>-->
+
+		<TextView
+			android:id="@+id/tv_mode_qk"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:layout_marginLeft="-0.5dp"
+			android:background="@drawable/shape_3_item_right_normal"
+			android:gravity="center"
+			android:text="群控"
+			android:textColor="@color/a1_blue_color"
+			android:textSize="14sp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="20dp"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:id="@+id/tv_mode_qc_jm"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:background="@drawable/shape_3_item_left_normal"
+			android:gravity="center"
+			android:text="七彩渐变"
+			android:textColor="@color/a1_blue_color"
+			android:textSize="14sp"/>
+
+		<!--<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/a1_blue_color"/>-->
+
+		<TextView
+			android:id="@+id/tv_qc_tb"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:layout_marginLeft="-0.5dp"
+			android:background="@drawable/shape_3_item_center_normal"
+			android:gravity="center"
+			android:text="七彩跳变"
+			android:textColor="@color/a1_blue_color"
+			android:textSize="14sp"/>
+
+		<!--<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@color/a1_blue_color"/>-->
+
+		<TextView
+			android:id="@+id/tv_hxd"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:layout_marginLeft="-0.5dp"
+			android:background="@drawable/shape_3_item_right_normal"
+			android:gravity="center"
+			android:text="呼吸灯"
+			android:textColor="@color/a1_blue_color"
+			android:textSize="14sp"/>
+	</LinearLayout>
+
+</LinearLayout>

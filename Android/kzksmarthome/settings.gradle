@@ -1,0 +1,5 @@
+include ':cubesdkcore', ':androidPullToRefreshRecyclerViewlibrary'
+include ':kzksmarthomeapp'
+include ':eventBus'
+include ':kzksmarthomelib'
+include ':cameralib'

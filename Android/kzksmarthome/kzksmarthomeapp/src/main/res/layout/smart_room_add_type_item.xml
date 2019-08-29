@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart_room_type_item_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/smart_room_type_item_iv"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+         />
+
+    <TextView
+        android:id="@+id/smart_room_type_item_red"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_red_dot_bg"
+        android:gravity="center"
+        android:text="√"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+</RelativeLayout>

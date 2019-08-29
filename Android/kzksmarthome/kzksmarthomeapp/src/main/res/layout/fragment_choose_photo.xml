@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.kzksmarthome.SmartHouseYCT.biz.photo.HackyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/title_ll"
+        style="@style/titlebar"
+        android:layout_width="match_parent" >
+
+        <TextView
+            android:id="@+id/top_back_btn"
+            style="@style/back_item_tv_style"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/top_title_tv"
+            style="@style/title_textView"
+            android:text="@string/watch_picture" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        style="@style/bottom_toolbar"
+        android:layout_alignParentBottom="true" >
+
+        <CheckBox
+            android:id="@+id/check_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_30px"
+            android:background="@drawable/selector_photo_preview_check_bg"
+            android:button="@null" />
+
+        <Button
+            android:id="@+id/btn_sure_add"
+            android:layout_width="160dp"
+            android:layout_height="37dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_18px"
+            android:background="@drawable/selector_one_btn"
+            android:text="@string/upload_add_sure"
+            android:textSize="@dimen/textsize_18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

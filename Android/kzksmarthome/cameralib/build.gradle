@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+
+android {
+    lintOptions {
+        abortOnError false
+    }
+
+    compileSdkVersion 21
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+}
+
+
+dependencies {
+    compile files('libs/EZOpenSDK.jar')
+    compile files('libs/gcm.jar')
+    compile files('libs/zxing.jar')
+    provided files('libs/jmdns-3.4.1.jar')
+    provided files('libs/glide-3.6.1.jar')
+
+    compile 'com.android.support:appcompat-v7:21+'
+//    compile 'com.hikvision.ezviz:ezviz-sdk:4.7.1'
+}

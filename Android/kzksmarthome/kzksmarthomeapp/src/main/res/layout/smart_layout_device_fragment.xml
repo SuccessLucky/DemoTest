@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_x450"
+            android:background="@drawable/device_top_bg" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/device_title_str"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/device_main_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_x30"
+            android:layout_marginLeft="@dimen/dp_x30"
+            android:layout_marginRight="@dimen/dp_x30"
+            android:layout_marginTop="@dimen/dp_x425"
+            android:background="@drawable/device_bottom_bg"
+            android:paddingLeft="@dimen/dp_x10"
+            android:paddingRight="@dimen/dp_x10"
+            android:paddingTop="@dimen/dp_x10" />
+    </RelativeLayout>
+</LinearLayout>

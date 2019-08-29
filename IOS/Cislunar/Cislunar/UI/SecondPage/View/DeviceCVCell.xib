@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="DeviceCVCell" reuseIdentifier="DeviceCVCell" id="gTV-IL-0wX" customClass="DeviceCVCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moren" translatesAutoresizingMaskIntoConstraints="NO" id="tzV-ib-xSd">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACi-qq-Qax">
+                        <rect key="frame" x="5" y="5" width="34" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="bXI-nQ-Nam"/>
+                            <constraint firstAttribute="width" constant="34" id="e2t-8I-FwG"/>
+                        </constraints>
+                        <state key="normal" image="插座"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qn-1j-un4">
+                        <rect key="frame" x="10" y="42" width="85" height="15"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="aXM-Dm-Qcg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTt-B0-tZ1">
+                        <rect key="frame" x="10" y="60" width="85" height="13"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="XWM-aG-e4H"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rge-uY-vMq">
+                        <rect key="frame" x="10" y="76" width="85" height="13"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="cxm-ol-lP9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tzV-ib-xSd" secondAttribute="bottom" id="3y9-Yd-5jU"/>
+                <constraint firstItem="ACi-qq-Qax" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="4WD-Ke-b3M"/>
+                <constraint firstItem="lTt-B0-tZ1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="5qL-o3-A6G"/>
+                <constraint firstAttribute="trailing" secondItem="tzV-ib-xSd" secondAttribute="trailing" id="7vO-cu-mrk"/>
+                <constraint firstAttribute="trailing" secondItem="rge-uY-vMq" secondAttribute="trailing" constant="5" id="90V-Cj-ikr"/>
+                <constraint firstItem="rge-uY-vMq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Hiu-qa-I1C"/>
+                <constraint firstItem="lTt-B0-tZ1" firstAttribute="top" secondItem="9Qn-1j-un4" secondAttribute="bottom" constant="3" id="QSE-Yp-9Ls"/>
+                <constraint firstAttribute="trailing" secondItem="9Qn-1j-un4" secondAttribute="trailing" constant="5" id="enY-XR-8Nh"/>
+                <constraint firstItem="9Qn-1j-un4" firstAttribute="top" secondItem="ACi-qq-Qax" secondAttribute="bottom" constant="3" id="hzJ-lJ-d9Z"/>
+                <constraint firstItem="9Qn-1j-un4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="iXF-2j-hj7"/>
+                <constraint firstItem="ACi-qq-Qax" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="mCk-a5-V2u"/>
+                <constraint firstItem="tzV-ib-xSd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="niB-aW-Jc1"/>
+                <constraint firstItem="tzV-ib-xSd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="p6C-x1-eTI"/>
+                <constraint firstAttribute="trailing" secondItem="lTt-B0-tZ1" secondAttribute="trailing" constant="5" id="rQf-BZ-jDF"/>
+                <constraint firstItem="rge-uY-vMq" firstAttribute="top" secondItem="lTt-B0-tZ1" secondAttribute="bottom" constant="3" id="t63-uI-MDO"/>
+            </constraints>
+            <connections>
+                <outlet property="btnDeviceImage" destination="ACi-qq-Qax" id="cQm-Vy-XFF"/>
+                <outlet property="imageBg" destination="tzV-ib-xSd" id="beh-7l-6cD"/>
+                <outlet property="labelDeviceName" destination="9Qn-1j-un4" id="xL1-zy-7ZO"/>
+                <outlet property="labelRegion" destination="lTt-B0-tZ1" id="JSR-eB-qdT"/>
+                <outlet property="labelState" destination="rge-uY-vMq" id="Pg6-og-Es6"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="moren" width="105" height="105"/>
+        <image name="插座" width="36" height="36"/>
+    </resources>
+</document>

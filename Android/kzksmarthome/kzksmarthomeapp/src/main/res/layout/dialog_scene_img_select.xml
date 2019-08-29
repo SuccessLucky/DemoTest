@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scene_img_select_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:id="@+id/scene_img_select_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/scene_img_select_cancel_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/hint_cannel"
+            android:textColor="#3CB3ED"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/scene_img_select_str"
+            android:textColor="@color/black_20"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/title_layout"
+        android:id="@+id/smart_scene_img_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

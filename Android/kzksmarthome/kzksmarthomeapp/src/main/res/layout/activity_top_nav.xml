@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/common_top_nav" />
+
+        <TextView
+            android:id="@+id/network_hint_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_100p"
+            android:layout_alignParentTop="true"
+            android:background="@color/dialog_bg"
+            android:gravity="center"
+            android:text="@string/network_error_tv"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/indexbg"></FrameLayout>
+
+</LinearLayout>

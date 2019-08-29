@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@android:id/background">
+    <nine-patch android:src="@drawable/progress_oringe_bg"/>
+</item>
+<item android:id="@android:id/secondaryProgress">
+    <clip>
+        <nine-patch android:src="@drawable/progress_oringe_bg"/>
+    </clip>
+</item>
+<item android:id="@android:id/progress">
+    <clip>
+        <nine-patch android:src="@drawable/progress_oringe_light"/>
+    </clip>
+</item>
+</layer-list>

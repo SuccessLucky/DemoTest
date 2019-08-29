@@ -1,0 +1,203 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Arrowlib:
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* .project.bak
+* ArrowLib.iml
+* ant.properties
+* build.xml
+* debug.keystore
+* ic_launcher-web.png
+From EventBus:
+* .gradle\
+* .gradle\1.5\
+* .gradle\1.5\taskArtifacts\
+* .gradle\1.5\taskArtifacts\cache.properties
+* .gradle\1.5\taskArtifacts\cache.properties.lock
+* .gradle\1.5\taskArtifacts\fileHashes.bin
+* .gradle\1.5\taskArtifacts\fileSnapshots.bin
+* .gradle\1.5\taskArtifacts\outputFileStates.bin
+* .gradle\1.5\taskArtifacts\taskArtifacts.bin
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* EventBus.iml
+* build.gradle
+* build.xml
+* build\
+* build\docs\
+* build\docs\javadoc\
+* build\docs\javadoc\allclasses-frame.html
+* build\docs\javadoc\allclasses-noframe.html
+* build\docs\javadoc\constant-values.html
+* build\docs\javadoc\de\
+* build\docs\javadoc\de\greenrobot\
+* build\docs\javadoc\de\greenrobot\event\
+* build\docs\javadoc\de\greenrobot\event\EventBus.html
+* build\docs\javadoc\de\greenrobot\event\EventBusBuilder.html
+* build\docs\javadoc\de\greenrobot\event\EventBusException.html
+* build\docs\javadoc\de\greenrobot\event\NoSubscriberEvent.html
+* build\docs\javadoc\de\greenrobot\event\SubscriberExceptionEvent.html
+* build\docs\javadoc\de\greenrobot\event\ThreadMode.html
+* build\docs\javadoc\de\greenrobot\event\package-frame.html
+* build\docs\javadoc\de\greenrobot\event\package-summary.html
+* build\docs\javadoc\de\greenrobot\event\package-tree.html
+* build\docs\javadoc\de\greenrobot\event\util\
+* build\docs\javadoc\de\greenrobot\event\util\AsyncExecutor.Builder.html
+* build\docs\javadoc\de\greenrobot\event\util\AsyncExecutor.RunnableEx.html
+* build\docs\javadoc\de\greenrobot\event\util\AsyncExecutor.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogConfig.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogFragmentFactory.Honeycomb.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogFragmentFactory.Support.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogFragmentFactory.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogFragments.Honeycomb.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogFragments.Support.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogFragments.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogManager.HoneycombManagerFragment.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogManager.SupportManagerFragment.html
+* build\docs\javadoc\de\greenrobot\event\util\ErrorDialogManager.html
+* build\docs\javadoc\de\greenrobot\event\util\ExceptionToResourceMapping.html
+* build\docs\javadoc\de\greenrobot\event\util\HasExecutionScope.html
+* build\docs\javadoc\de\greenrobot\event\util\ThrowableFailureEvent.html
+* build\docs\javadoc\de\greenrobot\event\util\package-frame.html
+* build\docs\javadoc\de\greenrobot\event\util\package-summary.html
+* build\docs\javadoc\de\greenrobot\event\util\package-tree.html
+* build\docs\javadoc\deprecated-list.html
+* build\docs\javadoc\help-doc.html
+* build\docs\javadoc\index-all.html
+* build\docs\javadoc\index.html
+* build\docs\javadoc\overview-frame.html
+* build\docs\javadoc\overview-summary.html
+* build\docs\javadoc\overview-tree.html
+* build\docs\javadoc\package-list
+* build\docs\javadoc\resources\
+* build\docs\javadoc\resources\background.gif
+* build\docs\javadoc\resources\tab.gif
+* build\docs\javadoc\resources\titlebar.gif
+* build\docs\javadoc\resources\titlebar_end.gif
+* build\docs\javadoc\serialized-form.html
+* build\docs\javadoc\stylesheet.css
+* build\libs\
+* build\libs\EventBus-2.4.0-javadoc.jar
+* build\libs\eventbus-2.4.0-sources.jar
+* build\libs\eventbus-2.4.0.jar
+* build\reports\
+* build\reports\tests\
+* build\reports\tests\base-style.css
+* build\reports\tests\index.html
+* build\reports\tests\report.js
+* build\reports\tests\style.css
+* build\test-results\
+* build\test-results\binary\
+* build\test-results\binary\test\
+* build\test-results\binary\test\results.bin
+* build\tmp\
+* build\tmp\jar\
+* build\tmp\jar\MANIFEST.MF
+* build\tmp\javadocJar\
+* build\tmp\javadocJar\MANIFEST.MF
+* build\tmp\javadoc\
+* build\tmp\javadoc\javadoc.options
+* build\tmp\sourcesJar\
+* build\tmp\sourcesJar\MANIFEST.MF
+* mybuild.xml
+* settings.gradle
+From Sqlcrypt_SDK:
+* Sqlcrypt_SDK.iml
+* build.xml
+* build\
+* build\libs\
+* build\libs\Sqlcrypt_SDK.jar
+* proguard-project.txt
+From ptr-lib:
+* build.gradle
+* build.xml
+* checkstyle.xml
+* gradle-mvn-push.gradle
+* gradle.properties
+* pom.xml
+* ptr-lib.iml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In EventBus:
+* AndroidManifest.xml => eventBus\src\main\AndroidManifest.xml
+* libs\android-support-annotations.jar => eventBus\libs\android-support-annotations.jar
+* libs\custom_support_v4.jar => eventBus\libs\custom_support_v4.jar
+* res\ => eventBus\src\main\res
+* src\ => eventBus\src\main\java\
+In Sqlcrypt_SDK:
+* AndroidManifest.xml => sqlcrypt_SDK\src\main\AndroidManifest.xml
+* jni\ => sqlcrypt_SDK\src\main\jni\
+* res\ => sqlcrypt_SDK\src\main\res
+* src\ => sqlcrypt_SDK\src\main\java\
+* src\com\sqlcrypt\database\IContentObserver.aidl => sqlcrypt_SDK\src\main\aidl\com\sqlcrypt\database\IContentObserver.aidl
+In ptr-lib:
+* AndroidManifest.xml => ptrlib\src\main\AndroidManifest.xml
+* libs\clog-1.0.2.jar => ptrlib\libs\clog-1.0.2.jar
+* res\ => ptrlib\src\main\res\
+* src\ => ptrlib\src\main\java\
+In Arrowlib:
+* AndroidManifest.xml => arrowlib\src\main\AndroidManifest.xml
+* libs\android-support-v7-recyclerview.jar => arrowlib\libs\android-support-v7-recyclerview.jar
+* libs\armeabi\libsqlcrypt_jni.so => arrowlib\src\main\jniLibs\armeabi\libsqlcrypt_jni.so
+* libs\butterknife-6.1.0.jar => arrowlib\libs\butterknife-6.1.0.jar
+* libs\okhttp-2.4.0.jar => arrowlib\libs\okhttp-2.4.0.jar
+* libs\okio-1.4.0.jar => arrowlib\libs\okio-1.4.0.jar
+* libs\oss-android-sdk-1.0.0.jar => arrowlib\libs\oss-android-sdk-1.0.0.jar
+* res\ => arrowlib\src\main\res\
+* src\ => arrowlib\src\main\java\
+* src\com\arrow\common\lib\ipc\IBackProcProxy.aidl => arrowlib\src\main\aidl\com\arrow\common\lib\ipc\IBackProcProxy.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

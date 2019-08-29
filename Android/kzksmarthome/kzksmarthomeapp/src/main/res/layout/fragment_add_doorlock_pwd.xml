@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_layout_style" >
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <View style="@style/personal_page_top_line" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/doorlock_pwd"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_doorlock_pwd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondary_gray" />
+
+        <View
+            style="@style/personal_page_top_line"
+            android:layout_marginLeft="@dimen/margin_30p" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/doorlock_pwd_confirm"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/confirm_doorlock_pwd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondary_gray" />
+
+        <View style="@style/personal_page_top_line" />
+    </LinearLayout>
+
+<!--    <Button
+        android:id="@+id/next_step"
+        style="@style/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_small_height"
+        android:layout_below="@id/top_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_30p"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:text="@string/bt_ok_str" />-->
+
+</RelativeLayout>

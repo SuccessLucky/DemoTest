@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_bg_gray"
+    >
+    <include layout="@layout/title_activity_defualt"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/iot_set_icon1"
+            android:textSize="@dimen/textsize_16sp"
+            android:textColor="@color/black"
+            android:text="@string/iot_setting_5g_hint"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_16sp"
+            android:textColor="@color/text_black"
+            android:text="@string/iot_setting_hint"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <View style="@style/personal_page_top_line" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/iot_setting_ssid"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_ssid"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLength="16"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondary_gray" />
+
+        <View
+            style="@style/personal_page_top_line"
+            android:layout_marginLeft="@dimen/margin_30p" />
+
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/iot_setting_pwd"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_wifi_pwd"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLength="16"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondary_gray" />
+        <View
+            style="@style/personal_page_top_line"
+            android:layout_marginLeft="@dimen/margin_30p" />
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/iot_setting_port"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_wifi_port"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="@color/secondary_gray" />
+        <View
+            style="@style/personal_page_top_line"
+            android:layout_marginLeft="@dimen/margin_30p" />
+
+        <View style="@style/personal_page_top_line" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/commit_iot_setting"
+        style="@style/login_btn"
+        android:background="@drawable/btn_blue_selector"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_small_height"
+        android:layout_below="@id/top_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_30p"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:text="@string/complete_str" />
+
+</LinearLayout>

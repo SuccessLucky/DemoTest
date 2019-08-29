@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></FrameLayout>
+
+        <View
+            style="@style/horizontal_line"
+            android:background="@color/black_20" />
+
+        <com.kzksmarthome.SmartHouseYCT.biz.widget.NestRadioGroup
+            android:id="@+id/group_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_bar_height"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/control_rl"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_bar_height"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:layout_marginTop="-1dp"
+                    android:id="@+id/control_tab"
+                    android:drawablePadding="2dp"
+                    style="@style/main_Red_RadioButton_style"
+                    android:drawableTop="@drawable/selector_tab_index"
+                    android:gravity="center"
+                    android:text="@string/tab_control"
+                    />
+            </FrameLayout>
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/nav_line_icon" />-->
+
+            <FrameLayout
+                android:id="@+id/feedback_rl"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_bar_height"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/device_tab"
+                    style="@style/main_Red_RadioButton_style"
+                    android:drawableTop="@drawable/selector_tab_device"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/tab_device" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/voice_rl"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_bar_height"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:id="@+id/voice_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/selector_voice_im"
+                    android:clickable="true"
+                    />
+            </FrameLayout>
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/nav_line_icon" />-->
+
+            <FrameLayout
+                android:id="@+id/msg_rl"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_bar_height"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/msg_tab"
+                    style="@style/main_Red_RadioButton_style"
+                    android:drawableTop="@drawable/selector_tab_scene"
+                    android:gravity="center"
+                    android:text="@string/tab_scene" />
+
+                <ImageView
+                    android:id="@+id/redTip"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/nav_dot_icon"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/nav_line_icon" />-->
+
+            <FrameLayout
+                android:id="@+id/seting_rl"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/tab_bar_height"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/seting_tab"
+                    style="@style/main_Red_RadioButton_style"
+                    android:drawableTop="@drawable/selector_tab_setting"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/tab_setting" />
+            </FrameLayout>
+        </com.kzksmarthome.SmartHouseYCT.biz.widget.NestRadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/network_hint_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_100p"
+        android:layout_alignParentTop="true"
+        android:background="@color/dialog_bg"
+        android:gravity="center"
+        android:text="@string/network_error_tv"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/room_manage_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="@drawable/smart_device_main_top_bg">
+
+        <RelativeLayout
+            android:id="@+id/top_rl"
+            style="@style/titlebar"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/top_back_tv"
+                style="@style/back_item_tv_style"
+                android:drawablePadding="2dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/top_title_tv"
+                style="@style/title_textView"
+                android:layout_centerInParent="true"
+                android:gravity="center" />
+
+            <RelativeLayout
+                android:id="@+id/top_right_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/topbar_left_with"
+                android:clickable="true"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/top_right_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="2dp"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/button_text_color_selector"
+                    android:textSize="@dimen/textsize_16sp" />
+
+                <!--<ImageView
+                    android:id="@+id/top_right_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bt_big_jia"
+                    android:visibility="gone"/>-->
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/hui_bg">
+    </FrameLayout>
+
+</LinearLayout>

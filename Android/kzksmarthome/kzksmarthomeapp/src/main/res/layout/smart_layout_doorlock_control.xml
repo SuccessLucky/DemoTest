@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/main_bg_color">
+
+        <ImageView
+            android:id="@+id/lock_ctr_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:minWidth="90dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/lock_ctr_lock" />
+
+        <TextView
+            android:id="@+id/lock_ctr_pwd_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lock_ctr_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="@string/lock_pwd_hint_str"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lock_ctr_pwd_hint_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp">
+
+            <ImageView
+                android:id="@+id/lock_ctr_pwd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/shape_lock_pwd_empty" />
+
+            <ImageView
+                android:id="@+id/lock_ctr_pwd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/shape_lock_pwd_empty" />
+
+            <ImageView
+                android:id="@+id/lock_ctr_pwd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/shape_lock_pwd_empty" />
+
+            <ImageView
+                android:id="@+id/lock_ctr_pwd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/shape_lock_pwd_empty" />
+
+            <ImageView
+                android:id="@+id/lock_ctr_pwd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/shape_lock_pwd_empty" />
+
+            <ImageView
+                android:id="@+id/lock_ctr_pwd6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/shape_lock_pwd_empty" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="19dp"
+        android:paddingBottom="19dp"
+        android:layout_weight="1"
+        android:background="@color/main_bg_color"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/lock_ctr_pwd_number_line1_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number1_tv"
+                style="@style/lock_pwd_number"
+                android:text="1"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number2_tv"
+                style="@style/lock_pwd_number"
+                android:text="2"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number3_tv"
+                style="@style/lock_pwd_number"
+                android:text="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lock_ctr_pwd_number_line2_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@id/lock_ctr_pwd_number_line1_ll"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number4_iv"
+                style="@style/lock_pwd_number"
+                android:text="4"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number5_iv"
+                style="@style/lock_pwd_number"
+                android:text="5"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number6_iv"
+                style="@style/lock_pwd_number"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lock_ctr_pwd_number_line3_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@id/lock_ctr_pwd_number_line2_ll"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number7_tv"
+                style="@style/lock_pwd_number"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number8_tv"
+                style="@style/lock_pwd_number"
+                android:text="8"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number9_tv"
+                style="@style/lock_pwd_number"
+                android:text="9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lock_ctr_pwd_number_line4_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@id/lock_ctr_pwd_number_line3_ll"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_del_tv"
+                style="@style/lock_pwd_number"
+                android:text="@string/lock_del_str"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_pwd_number0_tv"
+                style="@style/lock_pwd_number"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/lock_ctr_open_tv"
+                style="@style/lock_pwd_number"
+                android:text="@string/lock_open_str"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

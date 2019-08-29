@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公共 -->
+    <color name="orange">#FF5500</color><!--橙色 --> 
+    <color name="line_color_gray">#c8c8ce</color>
+    <color name="activity_bg_gray">#eeeef4</color>
+    <color name="blue">#507daf</color>
+    <color name="green">#40d359</color>
+    <color name="black">#202026</color>
+    <color name="white">#ffffff</color>
+    <color name="secondary_gray">#808086</color>
+    <color name="disable_gray">#b4b4ba</color>
+    <color name="progress_bar_not_reach_gray">#dcdce2</color>
+    <color name="color_b18351">#b18351</color>
+    <color name="dialog_bg">#99000000</color>
+    <color name="color_606066">#606066</color>
+    <color name="main_bg_color">#0090FF</color>
+    <color name="line_color_e5">#E5E5E5</color>
+
+    <color name="bg_f3">#F3F3F3</color>
+
+    <color name="light_white">#ffb7a3</color>
+    <color name="red">#ffc93437</color>
+    <color name="main_text_color">#202026</color>
+    <color name="personal_item_click_color">#f4f4fa</color>
+    <color name="edit_text_black">#222222</color>
+    <color name="edit_text_hint_gray">#a9a9a9</color>
+    <color name="edit_text_add_member">#303030</color>
+    <color name="edit_text_hint_add_member">#a0a0a0</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="setting_gray">#F0F0F0</color>
+
+    <color name="transparent">#00000000</color>
+    <drawable name="trans">@color/transparent</drawable>
+    <color name="default_image_bg">#eeeef4</color>
+    <color name="dark_gray_image_bg">#e2e2e8</color>
+    <color name="setting_black">#444444</color>
+    <color name="gold_color">#e8aa0a</color>
+    <color name="color_6b6b6b">#6b6b6b</color>
+    <color name="color_5874a0">#5874a0</color>
+    
+</resources>

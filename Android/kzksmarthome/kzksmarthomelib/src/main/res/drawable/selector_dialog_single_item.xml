@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><layer-list>
+            <item android:left="-1dp" android:right="-1dp"><shape>
+                    <solid android:color="@color/personal_item_click_color" />
+
+                    <stroke android:width="@dimen/line_height" android:color="@color/line_color_gray" />
+                </shape></item>
+        </layer-list></item>
+    <item><layer-list>
+            <item android:left="-1dp" android:right="-1dp"><shape>
+                    <solid android:color="@android:color/white" />
+
+                    <stroke android:width="@dimen/line_height" android:color="@color/line_color_gray" />
+                </shape></item>
+        </layer-list></item>
+
+</selector>

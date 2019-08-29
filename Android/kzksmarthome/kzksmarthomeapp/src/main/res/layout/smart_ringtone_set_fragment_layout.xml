@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_f3"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/setting_ringtone_keypad_rl"
+                style="@style/setting_item_style"
+                android:layout_marginTop="10dp"
+                android:background="@color/layout_bg_normal"
+                android:focusable="false"
+                android:focusableInTouchMode="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:text="@string/setting_ringtone_keypad_str"
+                    android:textColor="@color/setting_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/setting_ringtone_keypad_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:clickable="true"
+                    android:maxWidth="120dp"
+                    android:singleLine="true"
+                    android:text="@string/setting_ringtone_default_str"
+                    android:textColor="@color/feedback_gray"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/setting_ringtone_keypad_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_30px"
+                    android:background="@drawable/smart_check_off"
+                    android:clickable="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_vibrate_rl"
+                style="@style/setting_item_style"
+                android:layout_marginTop="10dp"
+                android:background="@color/layout_bg_normal"
+                android:focusable="false"
+                android:focusableInTouchMode="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:text="@string/setting_ringtone_alarm_str"
+                    android:textColor="@color/setting_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/setting_ringtone_alarm_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:clickable="true"
+                    android:maxWidth="120dp"
+                    android:singleLine="true"
+                    android:textColor="@color/feedback_gray"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/setting_ringtone_alarm_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_30px"
+                    android:background="@drawable/smart_check_off"
+                    android:clickable="true" />
+            </RelativeLayout>
+
+            <View style="@style/horizontal_line" />
+
+            <RelativeLayout
+                android:id="@+id/setting_ringtone_select_rl"
+                style="@style/setting_item_style"
+                android:background="@color/layout_bg_normal"
+                android:focusable="false"
+                android:focusableInTouchMode="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:text="@string/setting_ringtone_offline_str"
+                    android:textColor="@color/setting_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/setting_ringtone_offline_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_30px"
+                    android:clickable="true"
+                    android:maxWidth="120dp"
+                    android:singleLine="true"
+                    android:textColor="@color/feedback_gray"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/setting_ringtone_offline_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_30px"
+                    android:background="@drawable/smart_check_off"
+                    android:clickable="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,217 @@
+/* Localized versions of Info.plist keys */
+
+/**
+ *  系统返回码
+ */
+"MobSystemErrorCode_510001" = "Appkey 不合法 !";
+"MobSystemErrorCode_510020" = "接口维护 !";
+"MobSystemErrorCode_510021" = "接口停用 !";
+"MobSystemErrorCode_Undefined" = "未定义的系统错误 !";
+
+/**
+ *  各个 Api 接口返回错误码
+ */
+/*未定义错误*/
+"MobApiErrorCode_Undefined" = "未定义的Api错误 !";
+
+/*手机号查询*/
+"MobApiErrorCode_520101" = "查询不到相关数据 !";
+"MobApiErrorCode_520102" = "手机号码格式错误 !";
+
+/*菜谱查询*/
+"MobApiErrorCode_520201" = "查询不到数据 !";
+"MobApiErrorCode_520202" = "菜谱id不合法 !";
+
+/*邮编查询*/
+"MobApiErrorCode_520301" = "邮编号码为空 !";
+"MobApiErrorCode_520302" = "邮编号码查询不到对应的地址 !";
+"MobApiErrorCode_520304" = "错误的省份ID !";
+"MobApiErrorCode_520305" = "错误的城市ID !";
+
+/*天气预报查询*/
+"MobApiErrorCode_520401" = "城市参数为空 !";
+"MobApiErrorCode_520402" = "查询不到该城市的天气 !";
+"MobApiErrorCode_520404" = "IP地址错误 !";
+"MobApiErrorCode_520405" = "查询不到该IP地址相关的天气信息 !";
+
+/*手机基站查询*/
+"MobApiErrorCode_520501" = "查询不到相关数据 !";
+"MobApiErrorCode_520502" = "MCC为空或不合法 !";
+"MobApiErrorCode_520503" = "MNC为空或不合法 !";
+"MobApiErrorCode_520504" = "LAC为空或不合法 !";
+"MobApiErrorCode_520505" = "CELL为空或不合法 !";
+
+/*身份证信息查询*/
+"MobApiErrorCode_520601" = "请输入正确的15或18位身份证号码 !";
+"MobApiErrorCode_520602" = "查询不到该身份证信息 !";
+
+/*空气质量查询*/
+"MobApiErrorCode_520701" = "城市名称参数为空 !";
+"MobApiErrorCode_520702" = "查询不到该城市的空气质量 !";
+
+/*IP地址查询*/
+"MobApiErrorCode_520801" = "查不到相关IP的数据 !";
+"MobApiErrorCode_520802" = "IP参数错误 !";
+
+/*K-V存数据存储查询*/
+"MobApiErrorCode_520901" = "查询不到相关数据 !";
+"MobApiErrorCode_520902" = "key不允许未空 !";
+"MobApiErrorCode_520903" = "value不允许未空 !";
+"MobApiErrorCode_520904" = "value必须为标准化json格式字符串 !";
+"MobApiErrorCode_520905" = "value数据太大 !";
+"MobApiErrorCode_520906" = "数据集合不允许未空 !";
+"MobApiErrorCode_520907" = "数据集合表数超过上限 !";
+"MobApiErrorCode_520908" = "key不是标准的base64编码 !";
+"MobApiErrorCode_520909" = "value不是标准的base64编码 !";
+"MobApiErrorCode_520910" = "该数据表中数据已满，请更换表 !";
+"MobApiErrorCode_520911" = "该用户无数据 !";
+"MobApiErrorCode_520912" = "该用户无数据集合 !";
+"MobApiErrorCode_520913" = "该数据不存在 !";
+
+/*万年历*/
+"MobApiErrorCode_521001" = "查询的日期格式错误,格式:yyyy-MM-dd !";
+"MobApiErrorCode_521002" = "日期参数不能为空 !";
+"MobApiErrorCode_521003" = "无对应参数的数据返回 !";
+"MobApiErrorCode_521004" = "查询的日期范围有误 !";
+
+/*老黄历*/
+"MobApiErrorCode_521101" = "查询的日期格式错误,格式:yyyy-MM-dd !";
+"MobApiErrorCode_521102" = "日期参数不能为空 !";
+"MobApiErrorCode_521103" = "无对应参数的数据返回 !";
+"MobApiErrorCode_521104" = "查询的日期范围有误 !";
+
+/*婚姻匹配*/
+"MobApiErrorCode_521201" = "查询的日期格式错误,格式:yyyy-MM-dd !";
+"MobApiErrorCode_521202" = "日期参数不能为空 !";
+"MobApiErrorCode_521203" = "无对应参数的数据返回 !";
+"MobApiErrorCode_521204" = "小时参数不能为空 !";
+"MobApiErrorCode_521205" = "小时参数格式错误 !";
+"MobApiErrorCode_521206" = "查询的日期范围有误 !";
+
+/*八字算命*/
+"MobApiErrorCode_521301" = "查询的日期格式错误,格式:yyyy-MM-dd !";
+"MobApiErrorCode_521302" = "出生日期参数不能为空 !";
+"MobApiErrorCode_521303" = "无对应参数的数据返回 !";
+"MobApiErrorCode_521304" = "小时参数不能为空 !";
+"MobApiErrorCode_521305" = "小时参数格式错误 !";
+"MobApiErrorCode_521306" = "查询的日期范围有误 !";
+
+/*银行卡信息查询*/
+"MobApiErrorCode_521401" = "卡号有误,或者旧银行卡，暂时没有收录 !";
+
+/*手机号码查吉凶*/
+"MobApiErrorCode_521501" = "手机号码错误 !";
+
+/*成语大全*/
+"MobApiErrorCode_521601" = "查询不到相关数据 !";
+"MobApiErrorCode_521602" = "name为空或不合法 !";
+
+/*新华字典*/
+"MobApiErrorCode_521701" = "查询不到相关数据 !";
+"MobApiErrorCode_521702" = "汉字为空或格式错误 !";
+
+/*历史上的今天*/
+"MobApiErrorCode_521801" = "查询不到相关数据 !";
+"MobApiErrorCode_521802" = "day为空或不合法 !";
+
+/*健康知识*/
+"MobApiErrorCode_521901" = "查询不到相关数据 !";
+"MobApiErrorCode_521902" = "name为空或不合法 !";
+
+/*周公解梦*/
+"MobApiErrorCode_522001" = "查询不到相关数据 !";
+"MobApiErrorCode_522002" = "name为空或不合法 !";
+
+/*全球汇率*/
+"MobApiErrorCode_522101" = "查询银行参数错误 !";
+"MobApiErrorCode_522102" = "查询不到数据 !";
+"MobApiErrorCode_522103" = "汇率代码不能为空 !";
+"MobApiErrorCode_522104" = "汇率代码查询不到数据 !";
+"MobApiErrorCode_522105" = "分页参数错误 !";
+
+/*黄金暂无*/
+
+/*微信精选*/
+"MobApiErrorCode_522301" = "查询不到数据 !";
+"MobApiErrorCode_522302" = "cid不能为空 !";
+
+/*电影票房*/
+"MobApiErrorCode_522401" = "查询不到数据 !";
+"MobApiErrorCode_522402" = "票房地区不能为空或不合法 !";
+
+/*各省市油价*/
+
+/*彩票开奖结果*/
+"MobApiErrorCode_522601" = "彩种名称有误 !";
+"MobApiErrorCode_522602" = "暂无此期开彩数据 !";
+
+/*白银数据查询*/
+"MobApiErrorCode_522701" = "查询不到数据 !";
+
+/*国内交易所贵金属数据*/
+"MobApiErrorCode_522701" = "查询不到数据 !";
+"MobApiErrorCode_522702" = "查询参数错误 !";
+
+/*用户系统接口相关查询*/
+"MobApiErrorCode_522801" = "查询不到相关数据 !";
+"MobApiErrorCode_522802" = "username不允许为空 !";
+"MobApiErrorCode_522803" = "password不允许为空 !";
+"MobApiErrorCode_522804" = "历史密码不允许为空 !";
+"MobApiErrorCode_522805" = "新密码不允许为空 !";
+"MobApiErrorCode_522806" = "此用户名已存在 !";
+"MobApiErrorCode_522807" = "用户名或密码错误 !";
+"MobApiErrorCode_522808" = "uid不允许为空 !";
+"MobApiErrorCode_522809" = "token不允许为空 !";
+"MobApiErrorCode_522810" = "用户未登录或token已过期 !";
+"MobApiErrorCode_522811" = "用户数据项不允许为空 !";
+"MobApiErrorCode_522812" = "用户数据value不允许为空 !";
+"MobApiErrorCode_522813" = "用户数据项必须符合base64编码 !";
+"MobApiErrorCode_522814" = "用户数据值必须符合base64编码 !";
+"MobApiErrorCode_522815" = "用户数据项长度超过最大限制 !";
+"MobApiErrorCode_522816" = "用户数据项的值长度超过最大限制 !";
+"MobApiErrorCode_522817" = "email不允许为空 !";
+"MobApiErrorCode_522818" = "email不符合邮箱格式 !";
+"MobApiErrorCode_522819" = "用户名不存在 !";
+"MobApiErrorCode_522820" = "随机码错误 !";
+"MobApiErrorCode_522821" = "随机码已过期 !";
+"MobApiErrorCode_522822" = "模式数据不合法 !";
+"MobApiErrorCode_522823" = "此邮箱已存在 !";
+
+/*全球股指查询*/
+"MobApiErrorCode_522901" = "查询不到数据 !";
+"MobApiErrorCode_522902" = "至少存在一个查询参数 !";
+
+/*航班信息查询*/
+"MobApiErrorCode_523002" = "航班号不能为空 !";
+"MobApiErrorCode_523003" = "航班号错误或查询不到航班信息 !";
+"MobApiErrorCode_523004" = "出发城市和到达城市不能为空 !";
+"MobApiErrorCode_523006" = "查询不到对应航班信息 !";
+
+/*词库分词*/
+"MobApiErrorCode_523101" = "查询不到数据 !";
+"MobApiErrorCode_523102" = "text不允许为空 !";
+"MobApiErrorCode_523103" = "text必须符合base64编码 !";
+"MobApiErrorCode_523104" = "text长度超过最大限制 !";
+
+/*火车票查询*/
+"MobApiErrorCode_523201" = "没有相关数据 !";
+"MobApiErrorCode_523202" = "出发站或到达站为空 !";
+"MobApiErrorCode_523203" = "车次不能为空 !";
+
+/*驾考题库查询*/
+"MobApiErrorCode_523301" = "查询不到数据 !";
+"MobApiErrorCode_523302" = "分类id不允许为空 !";
+
+/*汽车信息查询*/
+"MobApiErrorCode_523401" = "查询不到数据 !";
+"MobApiErrorCode_523402" = "车型id为空 !";
+"MobApiErrorCode_523403" = "品牌名称是空 !";
+"MobApiErrorCode_523404" = "查询不到品牌的车型信息 !";
+"MobApiErrorCode_523405" = "查询不到该汽车相关信息 !";
+
+/*足球5大联赛信息查询*/
+"MobApiErrorCode_523501" = "没有相关数据 !";
+"MobApiErrorCode_523502" = "联赛类型不能为空 !";
+"MobApiErrorCode_523503" = "赛季不能为空 !";
+"MobApiErrorCode_523504" = "联赛第几轮次不能为空 !";
+"MobApiErrorCode_523505" = "至少输入一个查询队伍名 !";

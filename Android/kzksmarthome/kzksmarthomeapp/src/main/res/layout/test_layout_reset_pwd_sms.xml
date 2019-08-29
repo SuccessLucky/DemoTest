@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_tv_operation_dialog_btn_normal_bg">
+
+        <EditText
+            android:id="@+id/reset_pwd_sms_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_edittext_bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="0dp"
+            android:padding="5dp"
+            android:hint="请输入手机号"
+            android:textColorHint="#ADADAF"
+            android:textColor="@color/setting_black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/reset_pwd_sms_btn_ll"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/reset_pwd_sms_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/hint_cannel"
+                android:textColor="#3CB3ED"
+                android:textSize="14sp"
+                android:background="@drawable/selector_dialog_item_left_corner_round"/>
+
+            <View style="@style/vertical_line" />
+
+            <TextView
+                android:id="@+id/reset_pwd_sms_ensure"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bt_ok_str"
+                android:textColor="#3CB3ED"
+                android:textSize="14sp"
+                android:background="@drawable/selector_dialog_item_right_corner_round"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

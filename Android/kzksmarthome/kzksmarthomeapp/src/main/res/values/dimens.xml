@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="top_nav_scroll_line_height">2dp</dimen>
+    <dimen name="top_nav_scroll_line_height_negative">-2dp</dimen>
+
+    <!-- 字体大小google标准 -->
+    <dimen name="textsize_10sp">10sp</dimen>
+    <dimen name="textsize_11sp">11sp</dimen>
+    <dimen name="textsize_12sp">12sp</dimen>
+    <dimen name="textsize_14sp">14sp</dimen>
+    <dimen name="textsize_15sp">15sp</dimen>
+    <dimen name="textsize_16sp">16sp</dimen>
+    <dimen name="textsize_18sp">18sp</dimen>
+    <dimen name="textsize_20sp">20sp</dimen>
+    <dimen name="textsize_24sp">24sp</dimen>
+    <dimen name="textsize_23sp">23sp</dimen>
+
+    <!-- 控件间的间距，最好是8 -->
+    <dimen name="margin_10px">3dp</dimen>
+    <dimen name="margin_12px">4dp</dimen>
+    <dimen name="tab_margin">5dp</dimen>
+    <dimen name="margin_18px">6dp</dimen>
+    <dimen name="margin_21px">7dp</dimen>
+    <dimen name="margin_24px">8dp</dimen>
+    <dimen name="margin_28px">9dp</dimen>
+    <dimen name="margin_30px">10dp</dimen>
+    <dimen name="margin_33px">11dp</dimen>
+    <dimen name="margin_45px">15dp</dimen>
+    <dimen name="margin_36px">12dp</dimen>
+    <dimen name="margin_40px">13dp</dimen>
+    <dimen name="margin_42px">14dp</dimen>
+    <dimen name="margin_48px">16dp</dimen>
+    <dimen name="margin_51px">17dp</dimen>
+    <dimen name="margin_58px">19dp</dimen>
+    <dimen name="margin_60px">20dp</dimen>
+    <dimen name="margin_64px">21dp</dimen>
+    <dimen name="margin_72px">24dp</dimen>
+    <dimen name="margin_90px">30dp</dimen>
+    <dimen name="margin_80px">27dp</dimen>
+    <dimen name="margin_84px">28dp</dimen>
+    <dimen name="margin_93px">31dp</dimen>
+    <dimen name="margin_95px">32dp</dimen>
+    <dimen name="margin_114px">38dp</dimen>
+    <dimen name="margin_104px">35dp</dimen>
+    <dimen name="margin_120px">40dp</dimen>
+    <dimen name="margin_144px">48dp</dimen>
+    <dimen name="margin_153px">51dp</dimen>
+    <dimen name="margin_156px">52dp</dimen>
+    <dimen name="margin_210px">70dp</dimen>
+
+    <!-- 720p距离 -->
+    <dimen name="margin_72p">36dp</dimen>
+    <dimen name="margin_100p">50dp</dimen>
+    <dimen name="margin_88p">44dp</dimen>
+    <dimen name="margin_58p">28dp</dimen>
+    <dimen name="margin_50p">25dp</dimen>
+    <dimen name="margin_40p">20dp</dimen>
+    <dimen name="margin_30p">15dp</dimen>
+    <dimen name="margin_28p">14dp</dimen>
+    <dimen name="margin_25p">12.5dp</dimen>
+    <dimen name="margin_22p">11dp</dimen>
+    <dimen name="margin_20p">10dp</dimen>
+    <dimen name="margin_14p">7dp</dimen>
+    <dimen name="margin_15p">7.5dp</dimen>
+    <dimen name="margin_18p">9dp</dimen>
+    <dimen name="margin_10p">5dp</dimen>
+    <dimen name="margin_6p">3dp</dimen>
+
+    <!-- 控件的宽度，最好为48dp -->
+    <dimen name="line_height">1px</dimen>
+    <dimen name="line_width">1px</dimen>
+    <dimen name="dialog_line_height">2px</dimen>
+    <dimen name="list_img_height">54dp</dimen>
+    <dimen name="feedback_height">173dp</dimen>
+    <dimen name="feedback_max_height">300dp</dimen>
+    <dimen name="personal_head_height">80dp</dimen>
+    <dimen name="single_line_height_132px">44dp</dimen>
+    <dimen name="personal_small_height">48dp</dimen>
+    <dimen name="slide_view_icon_width_height">60dp</dimen>
+    <dimen name="title_bar_height">53dp</dimen>
+    <dimen name="title_line_height_120px">40dp</dimen>
+    <dimen name="double_line_height_210px">70dp</dimen>
+    <dimen name="double_btn_height_250px">84dp</dimen>
+    <dimen name="upgrade_dialog_width">280dp</dimen>
+    <dimen name="list_bottom_shadow_height">21dp</dimen>
+    <dimen name="project_popt_width">5dp</dimen>
+    <dimen name="topbar_left_with">11dp</dimen>
+    <dimen name="edit_text_height">35dp</dimen>
+    <dimen name="tab_bar_height">49dp</dimen>
+
+</resources>

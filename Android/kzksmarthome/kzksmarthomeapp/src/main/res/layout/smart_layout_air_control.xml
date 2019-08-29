@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/air_ctr_bottom_rl"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/edit_text_hint_gray"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/air_ctr_mode_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/air_ctr_mode_iv"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:src="@drawable/smart_air_mode" />
+
+            <TextView
+                android:id="@+id/air_ctr_mode_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/air_ctr_mode_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="@string/air_mode_str"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/air_ctr_wind_speed_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_toRightOf="@id/air_ctr_mode_rl"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/air_ctr_wind_speed_iv"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:src="@drawable/smart_air_wind_speed" />
+
+            <TextView
+                android:id="@+id/air_ctr_wind_speed_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/air_ctr_wind_speed_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="@string/air_wind_speed_str"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/air_ctr_leftright_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_toRightOf="@id/air_ctr_wind_speed_rl"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/air_ctr_leftright_iv"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:src="@drawable/smart_air_leftright" />
+
+            <TextView
+                android:id="@+id/air_ctr_leftright_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/air_ctr_leftright_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="@string/air_wind_leftright_str"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/air_ctr_updown_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_toRightOf="@id/air_ctr_leftright_rl"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/air_ctr_updown_iv"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:src="@drawable/smart_air_updown_off" />
+
+            <TextView
+                android:id="@+id/air_ctr_updown_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/air_ctr_updown_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="@string/air_wind_updown_str"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/air_ctr_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/air_ctr_bottom_rl"
+        android:background="@color/edit_text_hint_add_member"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp">
+
+
+
+        <!--<SeekBar
+            android:id="@+id/smart_curtain_ctr_seekbar"
+            style="@style/Widget.SeekBar.Normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp" />-->
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/air_ctr_temp_add_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/smart_air_add" />
+
+            <TextView
+                android:id="@+id/air_ctr_temp_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/air_ctr_temp_add_iv"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="26°"
+                android:textColor="@color/white"
+                android:textSize="75sp" />
+
+            <ImageView
+                android:id="@+id/air_ctr_temp_subtract_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/air_ctr_temp_tv"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/smart_air_subtract" />
+
+            <TextView
+                android:id="@+id/air_ctr_off_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/air_off_str"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </RelativeLayout>
+       <TextView
+           android:id="@+id/hint_tv"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:textColor="@color/white"
+           android:background="@color/dialog_bg"
+           android:gravity="center"
+           android:text="@string/aircondition_is_colse_str"
+           android:textSize="18sp"
+           android:visibility="gone"
+           android:clickable="true"
+           />
+   </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/air_ctr_switch_iv"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:src="@drawable/smart_air_on" />
+</RelativeLayout>

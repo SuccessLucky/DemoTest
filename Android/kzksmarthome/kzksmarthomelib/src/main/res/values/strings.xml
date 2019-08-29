@@ -1,0 +1,70 @@
+<resources>
+    <string name="build">1501041828</string>
+    <string name="core_proc_name">核心进程</string>
+    <string name="ch">ch_1</string>
+
+    <!-- upgrade -->
+    <string name="pause">暂停</string>
+    <string name="version">版本</string>
+    <string name="size">大小</string>
+    <string name="launch_time">发布时间</string>
+    <string name="confirm_upgrade">立即更新</string>
+    <string name="version_upgrade">版本更新</string>
+    <string name="upgrade_checking">正在检查更新,&#160;请稍候...</string>
+    <string name="close">关闭</string>
+
+    <!-- 工具类 -->
+    <string name="start_fail">启动应用失败!</string>
+    <string name="hour">小时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+
+    <!-- 下载更新 -->
+    <string name="start_service_download">已启动后台下载, 请稍候</string>
+    <string name="check_upgrade_fail">检查更新出错</string>
+    <string name="check_upgrade_none">没有可更新</string>
+    <string name="error_url">更新地址出错</string>
+    <string name="start_download">开始下载</string>
+    <string name="downloading">下载中</string>
+    <string name="download_fail">下载失败</string>
+    <string name="download_success">下载完成</string>
+    <string name="stop">暂停</string>
+
+    <!-- 更新 -->
+    <string name="upgrade_dialog_new_version_feature">发现新版本啦！</string>
+    
+    <!-- 确认弹出框 -->
+    <string name="dialog_default_confirm_title">确认</string>
+    <string name="dialog_default_cancel_title">取消</string>
+    <string name="dialog_content_give_up_submit">确认放弃已有操作？</string>
+    <string name="dialog_content_confirm_delete_title">确认删除？</string>
+
+    <string name="test_server_address">服务器地址</string>
+    <string name="test_server_address_upload">上传服务器地址</string>
+    <string name="test_userid">用户id</string>
+    <string name="test_input">请输入服务器地址</string>
+    <string name="test_input_upload">请输入上传服务器地址</string>
+    <string name="test_input_correct_ip">请输入正确的IP地址</string>
+    <string name="test_dk">请输入正确的端口</string>
+    <string name="test_upload">上传测试</string>
+    
+    <!-- 下拉刷新 -->
+    <string name="ptr_pulldown">下拉刷新</string>
+    <string name="ptr_release">松开刷新</string>
+    <string name="ptr_refreshing">加载中</string>
+    <string name="ptr_refresh_finish">加载完成</string>
+    <string name="ptr_refresh_failed">刷新失败</string>
+    <string name="ptr_refresh_no_more">没有数据啦</string>
+    
+    <!-- 空白页面 -->
+    <string name="empty_no_data">这里什么都木有</string>
+    <string name="load_fail_click_reload">加载失败，点击重新加载</string>
+    <string name="load_fail_pull_reload">加载失败，下拉重新加载</string>
+    
+    <!-- provider-AUTHORITY -->
+    <string name="make_call">呼叫&#160;%1$s</string>
+    <string name="call">呼叫</string>
+    <string name="photo_view_str">照片预览</string>
+    <string name="dialog_content_confirm_uploadfail">图片上传失败，是否重传？</string>
+    <string name="search_iot_str">正在搜索网关，请稍后！</string>
+</resources>

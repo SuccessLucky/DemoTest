@@ -1,0 +1,1 @@
+../../../../GTExtensionSDK/GTExtensionSDK.framework/Headers/GeTuiExtSdk.h

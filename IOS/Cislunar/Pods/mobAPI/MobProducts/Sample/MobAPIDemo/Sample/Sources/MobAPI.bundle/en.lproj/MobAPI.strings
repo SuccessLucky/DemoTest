@@ -1,0 +1,217 @@
+/* Localized versions of Info.plist keys */
+
+/**
+ *  系统返回码
+ */
+"MobSystemErrorCode_510001" = "Invaild App Key !";
+"MobSystemErrorCode_510020" = "Api maintenance !";
+"MobSystemErrorCode_510021" = "Api disable !";
+"MobSystemErrorCode_Undefined" = "Undefined system error !";
+
+/**
+ *  各个 Api 接口返回错误码
+ */
+/*未定义的错误*/
+"MobApiErrorCode_Undefined" = "Undefined Api error !";
+
+/*手机号查询*/
+"MobApiErrorCode_520101" = "Can not find the relevant data !";
+"MobApiErrorCode_520102" = "Wrong format of phone number !";
+
+/*菜谱查询*/
+"MobApiErrorCode_520201" = "Can not find the data !";
+"MobApiErrorCode_520202" = "Cook id not legal !";
+
+/*邮编查询*/
+"MobApiErrorCode_520301" = "Postcode number is empty !";
+"MobApiErrorCode_520302" = "Postcode no matching address !";
+"MobApiErrorCode_520304" = "Wrong provinces id !";
+"MobApiErrorCode_520305" = "Wrong city id !";
+
+/*天气预报查询*/
+"MobApiErrorCode_520401" = "City parameter is empty !";
+"MobApiErrorCode_520402" = "Can not find the city's weather !";
+"MobApiErrorCode_520404" = "IP address error !";
+"MobApiErrorCode_520405" = "The weather information relevant to the IP address is not in check !";
+
+/*手机基站查询*/
+"MobApiErrorCode_520501" = "Can not find the relevant data !";
+"MobApiErrorCode_520502" = "MCC is empty or not legal !";
+"MobApiErrorCode_520503" = "MNC is empty or not legal !";
+"MobApiErrorCode_520504" = "LAC is empty or not legal !";
+"MobApiErrorCode_520505" = "CELL is empty or not legal !";
+
+/*身份证信息查询*/
+"MobApiErrorCode_520601" = "Please enter the correct ID number 15 or 18 !";
+"MobApiErrorCode_520602" = "Can not find the ID card information !";
+
+/*空气质量查询*/
+"MobApiErrorCode_520701" = "City name parameter is empty !";
+"MobApiErrorCode_520702" = "Can not find the city's air quality !";
+
+/*IP地址查询*/
+"MobApiErrorCode_520801" = "Can not find the relevant data for ip !";
+"MobApiErrorCode_520802" = "IP parameter error !";
+
+/*K-V存数据存储查询*/
+"MobApiErrorCode_520901" = "Can not find the relevant data !";
+"MobApiErrorCode_520902" = "Key is not allowed to empty !";
+"MobApiErrorCode_520903" = "Value is not allowed to empty !";
+"MobApiErrorCode_520904" = "Value must be standardized json format string !";
+"MobApiErrorCode_520905" = "value data is too large !";
+"MobApiErrorCode_520906" = "Data collection not allowed to empty !";
+"MobApiErrorCode_520907" = "Data collection of tables exceeds the maximum !";
+"MobApiErrorCode_520908" = "Key is not a standard base64 code !";
+"MobApiErrorCode_520909" = "Value is not a standard base64 code !";
+"MobApiErrorCode_520910" = "The data in this table is full, Please replace the table !";
+"MobApiErrorCode_520911" = "The user has no data !";
+"MobApiErrorCode_520912" = "The user has no data set !";
+"MobApiErrorCode_520913" = "The data does not exist !";
+
+/*万年历*/
+"MobApiErrorCode_521001" = "Error in date format for query, format: yyyy-MM-dd !";
+"MobApiErrorCode_521002" = "Date parameter cannot be empty !";
+"MobApiErrorCode_521003" = "Data return without corresponding parameters !";
+"MobApiErrorCode_521004" = "The date range of the query is incorrect !";
+
+/*老黄历*/
+"MobApiErrorCode_521101" = "Error in date format for query, format: yyyy-MM-dd";
+"MobApiErrorCode_521102" = "Date parameter cannot be empty !";
+"MobApiErrorCode_521103" = "Data return without corresponding parameters !";
+"MobApiErrorCode_521104" = "The date range of the query is incorrect !";
+
+/*婚姻匹配*/
+"MobApiErrorCode_521201" = "Error in date format for query, format: yyyy-MM-dd";
+"MobApiErrorCode_521202" = "Date parameter cannot be empty !";
+"MobApiErrorCode_521203" = "Data return without corresponding parameters !";
+"MobApiErrorCode_521204" = "Hour parameter cannot be empty !";
+"MobApiErrorCode_521205" = "Hour parameter format error !";
+"MobApiErrorCode_521206" = "The date range of the query is incorrect !";
+
+/*八字算命*/
+"MobApiErrorCode_521301" = "Error in date format for query, format: yyyy-MM-dd";
+"MobApiErrorCode_521302" = "Date parameter cannot be empty !";
+"MobApiErrorCode_521303" = "Data return without corresponding parameters !";
+"MobApiErrorCode_521304" = "Hour parameter cannot be empty !";
+"MobApiErrorCode_521305" = "Hour parameter format error !";
+"MobApiErrorCode_521306" = "The date range of the query is incorrect !";
+
+/*银行卡信息查询*/
+"MobApiErrorCode_521401" = "The card number is incorrect, or the old bank card, temporarily not included !";
+
+/*手机号码查吉凶*/
+"MobApiErrorCode_521501" = "Wrong phone number !";
+
+/*成语大全*/
+"MobApiErrorCode_521601" = "Can not find the relevant data !";
+"MobApiErrorCode_521602" = "Name is empty or not legal !";
+
+/*新华字典*/
+"MobApiErrorCode_521701" = "Can not find the relevant data !";
+"MobApiErrorCode_521702" = "Character is empty or format error !";
+
+/*历史上的今天*/
+"MobApiErrorCode_521801" = "Can not find the relevant data !";
+"MobApiErrorCode_521802" = "Day is empty or not legal !";
+
+/*健康知识*/
+"MobApiErrorCode_521901" = "Can not find the relevant data !";
+"MobApiErrorCode_521902" = "Name is empty or not legal !";
+
+/*周公解梦*/
+"MobApiErrorCode_522001" = "Can not find the relevant data !";
+"MobApiErrorCode_522002" = "Name is empty or not legal !";
+
+/*全球汇率*/
+"MobApiErrorCode_522101" = "Discover bank parameter error !";
+"MobApiErrorCode_522102" = "Can not find the relevant data !";
+"MobApiErrorCode_522103" = "Exchange rate code can not be empty !";
+"MobApiErrorCode_522104" = "Exchange rate code can not query the data !";
+"MobApiErrorCode_522105" = "Paging parameter error !";
+
+/*黄金暂无*/
+
+/*微信精选*/
+"MobApiErrorCode_522301" = "Can not find the relevant data !";
+"MobApiErrorCode_522302" = "Cid can not be empty";
+
+/*电影票房*/
+"MobApiErrorCode_522401" = "Can not find the relevant data !";
+"MobApiErrorCode_522402" = "Box office area can not be empty or invalid";
+
+/*各省市油价*/
+
+/*彩票开奖结果*/
+"MobApiErrorCode_522601" = "Lottery names are wrong !";
+"MobApiErrorCode_522602" = "In this period the lottery data !";
+
+/*白银数据查询*/
+"MobApiErrorCode_522701" = "Can not find the relevant data !";
+
+/*国内交易所贵金属数据*/
+"MobApiErrorCode_522701" = "Can not find the relevant data !";
+"MobApiErrorCode_522702" = "Query parameter error !";
+
+/*用户系统接口相关查询*/
+"MobApiErrorCode_522801" = "Can not find the relevant data !";
+"MobApiErrorCode_522802" = "Username is not allowed to empty !";
+"MobApiErrorCode_522803" = "Password is not allowed to empty !";
+"MobApiErrorCode_522804" = "Old password is not allowed to empty !";
+"MobApiErrorCode_522805" = "New password is not allowed to empty !";
+"MobApiErrorCode_522806" = "This user name already exists !";
+"MobApiErrorCode_522807" = "Error incorrect username or password !";
+"MobApiErrorCode_522808" = "Uid is not allowed to empty !";
+"MobApiErrorCode_522809" = "Token is not allowed to empty !";
+"MobApiErrorCode_522810" = "The user has not logged in or the token has expired !";
+"MobApiErrorCode_522811" = "Item is not allowed to empty !";
+"MobApiErrorCode_522812" = "Value is not allowed to empty !";
+"MobApiErrorCode_522813" = "The user data item must conform to the base64 code !";
+"MobApiErrorCode_522814" = "User data values must conform to the base64 code !";
+"MobApiErrorCode_522815" = "User data item length exceeds the maximum limit !";
+"MobApiErrorCode_522816" = "The value of the user data item exceeds the maximum limit !";
+"MobApiErrorCode_522817" = "Email is not allowed to empty !";
+"MobApiErrorCode_522818" = "Email does not conform to the mailbox format !";
+"MobApiErrorCode_522819" = "Username does not exist !";
+"MobApiErrorCode_522820" = "Random code error !";
+"MobApiErrorCode_522821" = "Random code has expired !";
+"MobApiErrorCode_522822" = "Mode data is not valid !";
+"MobApiErrorCode_522823" = "This email already exists !";
+
+/*全球股指查询*/
+"MobApiErrorCode_522901" = "Can not find the relevant data !";
+"MobApiErrorCode_522902" = "There is at least one query parameter !";
+
+/*航班信息查询*/
+"MobApiErrorCode_523002" = "Flight number can not be empty !";
+"MobApiErrorCode_523003" = "Flight No error or can not find flight information !";
+"MobApiErrorCode_523004" = "Departure city and arrival city can not be empty !";
+"MobApiErrorCode_523006" = "No matching flight information !";
+
+/*词库分词*/
+"MobApiErrorCode_523101" = "Can not find the data !";
+"MobApiErrorCode_523102" = "text does not allow empty !";
+"MobApiErrorCode_523103" = "base64 encoded text must meet !";
+"MobApiErrorCode_523104" = "text length exceeds the maximum limit !";
+
+/*火车票查询*/
+"MobApiErrorCode_523201" = "Can not find the relevant data !";
+"MobApiErrorCode_523202" = "Departure station or the arrival station is empty !";
+"MobApiErrorCode_523203" = "Trips can not be empty !";
+
+/*驾考题库查询*/
+"MobApiErrorCode_523301" = "Can not find the data !";
+"MobApiErrorCode_523302" = "cid not allow empty !";
+
+/*汽车信息查询*/
+"MobApiErrorCode_523401" = "Can not find the data !";
+"MobApiErrorCode_523402" = "Car id is empty !";
+"MobApiErrorCode_523403" = "Brand name is empty !";
+"MobApiErrorCode_523404" = "Query less than the brand model information !";
+"MobApiErrorCode_523405" = "Query less than the car related information !";
+
+/*足球5大联赛信息查询*/
+"MobApiErrorCode_523501" = "Can not find the data !";
+"MobApiErrorCode_523502" = "League type can not be empty !";
+"MobApiErrorCode_523503" = "Season can not be empty !";
+"MobApiErrorCode_523504" = "The first few rounds of League cannot be empty !";
+"MobApiErrorCode_523505" = "Enter at least one query team name !";

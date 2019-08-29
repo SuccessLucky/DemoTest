@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_layout_style" >
+
+    <TextView
+        android:id="@+id/sms_tip"
+        style="@style/main_tv_gray_14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_40p"
+        android:layout_marginTop="@dimen/margin_30p"
+        android:text="@string/send_sms_tip" />
+
+    <View
+        style="@style/personal_page_top_line"
+        android:layout_marginTop="@dimen/margin_30px" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/send_again_btn"
+            style="@style/main_tv_gray_14sp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="@string/send_sms_again" />
+
+        <View
+            android:id="@+id/line"
+            style="@style/vertical_line"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/send_again_btn" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/sms_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:layout_toLeftOf="@id/line"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/enter_sms"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16sp"
+            android:textColorHint="@color/secondary_gray" />
+    </RelativeLayout>
+
+    <View style="@style/personal_page_top_line" />
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_small_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_30p"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:text="@string/register_and_login" />
+
+    <TextView
+        android:id="@+id/agree_tv"
+        style="@style/main_tv_gray_14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_30p"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:text="@string/agree_text" />
+
+</LinearLayout>

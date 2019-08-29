@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/id_select_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_40px"
+        android:layout_marginRight="@dimen/margin_40px"
+        android:layout_marginTop="@dimen/margin_48px"
+        android:background="@drawable/address_bg_list"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.kzksmarthome.SmartHouseYCT.widget.wheel.WheelView
+            android:id="@+id/id_province"
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.kzksmarthome.SmartHouseYCT.widget.wheel.WheelView
+            android:id="@+id/id_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.kzksmarthome.SmartHouseYCT.widget.wheel.WheelView
+            android:id="@+id/id_district"
+            android:layout_width="0dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/id_home_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_below="@id/id_select_layout"
+        android:layout_marginLeft="@dimen/margin_40px"
+        android:layout_marginRight="@dimen/margin_40px"
+        android:layout_marginTop="@dimen/margin_40px"
+        android:background="@drawable/input_text"
+        android:hint="@string/register_address_hint_tv"
+        android:paddingLeft="@dimen/margin_40px"
+        android:singleLine="true"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/hint_gray"
+        android:textSize="@dimen/textsize_16sp" />
+
+</RelativeLayout>

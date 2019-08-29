@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tab_item_bg"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/smart_scene_main_im"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/smart_scene_main_del_tv"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_alignRight="@id/smart_scene_main_im"
+            android:layout_alignTop="@id/smart_scene_main_im"
+            android:background="@drawable/shape_red_dot_bg"
+            android:gravity="center"
+            android:focusable="true"
+            android:clickable="true"
+            android:text="一"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/smart_scene_main_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/smart_scene_main_im"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text=""
+            android:textColor="@color/color_6b6b6b"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</RelativeLayout>

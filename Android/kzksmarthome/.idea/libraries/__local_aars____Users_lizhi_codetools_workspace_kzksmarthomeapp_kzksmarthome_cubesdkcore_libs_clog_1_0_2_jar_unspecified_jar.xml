@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="__local_aars__:/Users/lizhi/codetools/workspace/kzksmarthomeapp/kzksmarthome/cubesdkcore/libs/clog-1.0.2.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cubesdkcore/libs/clog-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/cubesdkcore/libs/clog-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

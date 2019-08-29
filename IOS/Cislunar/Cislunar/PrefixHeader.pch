@@ -1,0 +1,180 @@
+//
+//  PrefixHeader.pch
+//  Cislunar
+//
+//  Created by 余长涛 on 2018/8/23.
+//  Copyright © 2018年 余长涛. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import "CommonDefine.h"
+
+/********************** Pods **********************/
+//BlocksKit
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+MessageUI.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+
+/********************** 颜色 **********************/
+#import "ColorDefine.h"
+
+/**********************  工具类 **********************/
+#import "UIImage+Tool.h"
+#import "UIImage+Scale.h"
+#import "ToolHexManager.h"
+#import "ImageTextButton.h"
+#import "UIButton+Style.h"
+#import "UIButton+EnlargeArea.h"
+#import "UIButton+Gidentifier.h"
+#import "UIButton+GButtonImageWithLable.h"
+#import "UIButton+TitleImgEdgeInsets.h"
+
+//kvo
+#import "NSObject+KVO.h"
+#import "RACEXTKeyPathCoding.h"
+
+//弹框
+//#import "GAlertMessageManager.h"
+
+
+#import "ToolCommon.h"
+
+/**********************  UI常用宏 **********************/
+#import "UICommon.h"
+#import "NSObject+UIHelper.h"
+
+/**********************  判断网络连接详细类型 **********************/
+#import  <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import  <CoreTelephony/CTCarrier.h>
+
+/********************** 渐变色 **********************/
+#import "UIView+RHGradientLayer.h"
+
+/********************** LLDebugTool是一款针对开发者和测试者的调试工具 **********************/
+#import "LLDebug.h"
+
+
+
+//AxcAE_TabBar，特效TabBar，以开放为封装核心的TabBar组件，尽量将属性、API等参数全部开放给使用者，能够很方便快速使用的一个TabBar选项卡组件
+#import <AxcAE_TabBar/AxcAE_TabBar.h>
+
+
+//weakly
+#import "RACEXTScope.h"
+
+//布局
+#import "Masonry.h"
+
+//BaseViewController
+#import "YCTBaseViewController+Style.h"
+#import "YCTBaseViewController+Tips.h"
+
+//修改图片的颜色
+#import "UIImage+Tint.h"
+
+
+//萤石摄像头
+#import <EZOpenSDKFramework/EZOpenSDKFramework.h>
+#define EZOPENSDK [EZOpenSDK class]
+#import "GlobalKit.h"
+
+//登录相关
+#import "SHLoginManager.h"
+#import "SHLoginManager+Network.h"
+#import "SHLoginManager+Cache.h"
+
+//数据库
+#import "SHCacheModel.h"
+#import "SHDataBaseDefine.h"
+#import "SHDataBaseManager.h"
+
+//提示框
+#import "YCTShowView.h"
+
+//网络提示框
+#import "ZAlertViewManager.h"
+
+
+//网络模块
+#import "HttpDefine.h"
+#import "HTTPNetworkEngine.h"
+#import "NetworkEngine.h"
+#import "NetworkEngine+UnPack.h"
+#import "NetworkEngine+Pack.h"
+#import "NetworkEngine+WIFIBaseInfo.h"
+#import "NetworkEngine+GatewayInfoPack.h"
+#import "NetworkEngine+Device0FAAInfoPack.h"
+#import "NetworkEngine+Device0FE6InfoPack.h"
+#import "NetworkEngine+AirConditionInfoPack.h"
+#import "NetworkEngine+SmartLockInfoPack.h"
+#import "NetworkEngine+ColourBulb.h"
+#import "NetworkEngine+ScreenPack.h"
+#import "NetworkEngine+MeasureDevicePack.h"
+
+//info
+#import "SHUIPicModel.h"
+#import "SHAppInfoManager.h"
+#import "SHAppCommonRequest.h"
+
+//model
+#import "SHModelGateway.h"
+#import "SHModelFloor.h"
+#import "SHModelRoom.h"
+#import "SHModelDevice.h"
+#import "ScreenModel.h"
+#import "SHInfraredKeyModel.h"
+#import "SHInfraredDeviceModel.h"
+#import "SHAlarmModel.h"
+#import "SHLockMemModel.h"
+#import "SHLockPswModel.h"
+#import "SHModelScreenNew.h"
+
+//Appdelegate
+#import "AppDelegate.h"
+#import "AppDelegate+Init.h"
+#import "AppDelegate+LogIn.h"
+#import "AppDelegate+Other.h"
+
+//SDImage
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/SDWebImageOperation.h>
+#import <SDWebImage/UIImage+ForceDecode.h>
+
+
+//actioSheet <LCActionSheetDelegate>  https://github.com/iTofu/LCActionSheet
+#import "LCActionSheet.h"
+
+//新风系统弹出框加入的头文件
+#import "UtilsMacro.h"
+#import "Masonry.h"
+#import "PopupTool.h"
+#import "zhPopupController.h"
+#import "BasePopUpView.h"
+
+#import "UIView+JQFrame.h"
+#import "NSAttributedString+Extension.h"
+#import "UIColor+ColorValue.h"
+#import "UIButton+Expand.h"
+#import "UIView+Toast.h"
+
+//结构体
+#import "CommonStructDefine.h"
+
+#import "SHRequestTimer.h"
+
+#import "IFlyMSC/IFlyMSC.h"
+//#import <iflyMSC/IFlyMSC.h>
+
+#import "XWHUDManager.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

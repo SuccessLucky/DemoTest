@@ -1,0 +1,1 @@
+../../../../EZOpenSDK/dist/EZOpenSDK/dynamicSDK/EZOpenSDKFramework.framework/Headers/EZAlarmInfo.h

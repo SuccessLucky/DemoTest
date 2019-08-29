@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_layout_style" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="@style/ProgressBar_Mini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+
+        <com.kzksmarthome.SmartHouseYCT.biz.h5.Browser
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView style="@style/error_tv" />
+
+</FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ScreenCollectionViewCell" id="gTV-IL-0wX" customClass="ScreenCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="151"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="151"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgb-ZM-RpG">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Lgb-ZM-RpG" secondAttribute="height" multiplier="1:1" id="yUb-RL-VVp"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0A9-5m-9B7">
+                        <rect key="frame" x="0.0" y="130" width="130" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="0A9-5m-9B7" secondAttribute="bottom" id="1F0-TC-wJP"/>
+                <constraint firstItem="0A9-5m-9B7" firstAttribute="top" secondItem="Lgb-ZM-RpG" secondAttribute="bottom" id="JPT-bk-fOt"/>
+                <constraint firstItem="Lgb-ZM-RpG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PwM-Qs-WWI"/>
+                <constraint firstItem="Lgb-ZM-RpG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RnY-dc-JEm"/>
+                <constraint firstAttribute="trailing" secondItem="Lgb-ZM-RpG" secondAttribute="trailing" id="UyP-SO-QT3"/>
+                <constraint firstAttribute="trailing" secondItem="0A9-5m-9B7" secondAttribute="trailing" id="b9H-EZ-hcA"/>
+                <constraint firstItem="0A9-5m-9B7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lnD-Pc-Vgw"/>
+            </constraints>
+            <size key="customSize" width="121" height="73"/>
+            <connections>
+                <outlet property="btnImage" destination="Lgb-ZM-RpG" id="Z5U-w6-BZD"/>
+                <outlet property="labelTitle" destination="0A9-5m-9B7" id="N1u-JT-RQL"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="77.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

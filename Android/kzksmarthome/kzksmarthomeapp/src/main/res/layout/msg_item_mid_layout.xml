@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/msg_mid_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_40px"
+        android:layout_marginRight="@dimen/margin_40px"
+        android:background="@drawable/selector_msg_bg_mid" >
+
+        <ImageView
+            android:id="@+id/msg_mid_im"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="@dimen/margin_40px"
+            android:layout_marginTop="6.5dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/msg_mid_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_48px"
+            android:layout_toLeftOf="@id/msg_mid_im"
+            android:textColor="@color/black"
+            android:maxLines="2"
+            android:textSize="@dimen/textsize_14sp" />
+
+        <View
+            android:id="@+id/msg_mid_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margin_40px"
+            android:layout_marginRight="@dimen/margin_40px"
+            android:background="@drawable/feedback_line" />
+    </RelativeLayout>
+
+</RelativeLayout>

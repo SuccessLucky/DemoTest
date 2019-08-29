@@ -1,0 +1,156 @@
+/* 
+   Localizable.strings
+  Cislunar
+
+  Created by 余长涛 on 2018/10/16.
+  Copyright © 2018年 余长涛. All rights reserved.
+*/
+"done"="OK";
+"cancel"="Cancel";
+"retry"="Try Again";
+"alert_title"="Prompt";
+"delete"="Delete";
+"complete"="Completed";
+"push_slider_msg"="Handle the notification by yourself.";
+
+"api_mirror_test"="Image Flipping API Test";
+"api_getting_device_list"="Getting the device list...";
+"api_get_device_list_fail"="Getting device list failed.";
+"api_flip_over"="The device channel image is flipping...";
+"api_flip_over_result"="Result";
+"ad_scan_qr_title"="Scan QR Code";
+"ad_allow_camera"="Allow device to access your camera on Settings-Privacy-Camera on your iPhone.";
+"ad_not_support_scan"="This QR code is not supported. Input manually.";
+"ad_result_title"="Result";
+"ad_adding_msg"="Adding. Please wait...";
+"ad_connect_net"="Connect to Network";
+"ad_add"="Add";
+"ad_restart_title"="Reboot";
+"ad_restart_tip"="Long press Reset on the device for 10 seconds, and wait for about 30 seconds until the device is rebooted.";
+"ad_restart_done"="Rebooted.";
+"ad_get_device_info_msg"="Searching for device information. Please wait...";
+"ad_already_added"="This device is already added.";
+"ad_added_by_others"="This device is already added.";
+"get_info_fail"="Searching for failed. Poor network.";
+"ad_input_manual"="Manual Input";
+
+"device_camera_list_title"="Device Channel List";
+"device_input_vierify_code"="Input the device verification code.";
+"device_verify_code_wrong"="Incorrect verification code.";
+"device_scan_function_tip"="For iOS 7.0 or lower system, please realize the code scanning function by yourself.";
+"device_upgrade_title"="Upgrade Device ";
+"device_upgrade_success"="Upgraded.";
+"device_upgrading"="Upgrading.";
+"device_modify_name_title"="Edit Device Name";
+"device_quality_high"="HD";
+"device_quality_median"="Balance";
+"device_quality_low"="Fluent";
+"device_quality_super"="UHD";
+"device_play_fail"="Playing failed.";
+"device_input_verify_code"="Input the password of video or picture.";
+"device_verify_code_tip"="Your video is encrypted. Enter the password to view. The initial password is the verification code on the camera label. If there is no verification code, enter <i>ABCDEF</i> (password is case-sensitive).";
+"device_tip_title"="Prompt";
+"device_verify_code_wrong"="Incorrect device password.";
+"device_restart_talk"="Enabling two-way audio. Please wait...";
+"device_save_gallery"="Saved to the albums.";
+"device_analogue_camera"="Analog Channel";
+"device_digital_camera"="Digital Channel";
+"device_lan_device_list_title"="LAN Device List";
+"device_active_device"="Activate Device";
+"device_set_pw_tip"="Set the password with 8 to 16 characters.";
+"device_set_pw"="Set Password";
+"device_pw_empty"="The password is required.";
+"device_pw_length_error"="Invalid password length.";
+"device_active_fail"="Activation failed.";
+"device_login_fail"="Login failed.";
+"device_login_device"="Log in to Device";
+"device_input_account_pw"="Input the user name and password.";
+"device_account"="User Name";
+"device_password"="Password";
+"device_account_pw_empty"="The user name or password is required.";
+"device_lan_preview_title"="Live View via LAN";
+
+"dmessage_title"="Message";
+"message_read"="Mark as Read";
+"message_deleting"="Deleting. Please wait...";
+"message_count_limit"="Up to 10 messages are allowed.";
+"message_setting"="Marking as read. Please wait...";
+"message_sunday"="Sunday";
+"message_monday"="Monday";
+"message_tuesday"="Tuesday";
+"message_wednesday"="Wednesday";
+"message_thursday"="Thursday";
+"message_friday"="Friday";
+"message_saturday"="Saturday";
+"message_today"="Today";
+"message_from"="From";
+"message_detail"="Details";
+"message_file_search_fail"="Searching for files failed.";
+"message_square_test"="Video Gallery Type Test";
+
+"setting_device_set_title"="Set Device";
+"setting_device_name"="Device Name";
+"setting_device_serial"="Serial No.";
+"setting_device_version"="Current Version";
+"setting_device_new_version"="Latest Version";
+"setting_defense_status"="Privacy Mask Status:";
+"setting_sleep_mode"="Sleepy Mode";
+"setting_home_mode"="At-Home Mode";
+"setting_out_mode"="Outdoor Mode";
+"setting_ignore_code"="Encrypting video or picture is not supported by security control panel.";
+"setting_action_detect"="Motion Detection Alarm";
+"setting_secure_code"="Encrypt Video and Picture";
+"setting_cloud_storage"="Cloud Storage";
+"setting_opration_fail"="Operation failed.";
+"setting_opration_success"="Completed.";
+"setting_switching"="Switching. Please wait...";
+"setting_device_security_check"="Security Authentication";
+"setting_input_code_plz"="Input the device verification code (6 characters on the device label).";
+"wifi_add_device_title"="Step 3, add device.";
+"wifi_connecting_net"="Connecting to Wi-Fi. Please wait.";
+"wifi_register_server"="Register Server";
+"wifi_bind_account"="绑定你的账户";
+"wifi_already_configed"="The Wi-Fi is configured.";
+"wifi_registering_server"="Registering the server.";
+"wifi_bind_account_result"="Link to your account to finish.";
+"wifi_already_registered_server"="Registered to the EZVIZ platform.";
+"wifi_config_fail"="Setting Wi-Fi failed. Try again or return to check the Wi-Fi password.";
+"wifi_register_fail"="Wi-Fi is configured, but login failed. Check the network and try again.";
+"wifi_bind_fail"="Wi-Fi is configured, but blinding account failed. Try again.";
+"wifi_add_fail"="Adding failed.";
+"wifi_add_success"="Added";
+"wifi_connecting_net"="Connecting to Wi-Fi.";
+"wifi_connect_wifi_title"="Step 2, connect to Wi-Fi.";
+"wifi_prepare_title"="Step 1, prepare for the device.";
+"wifi_device_power_tip"="Wait for about 30 seconds until the device is rebooted after the device is power on.";
+"wifi_device_start_ready"="The device is already started and it is the first time to configure with network.";
+"wifi_config_wifi_ago"="This device is configured with network before.";
+
+"ui_last_update"="Last Updated:";
+"ui_last_update_empty"="Last Updated: No record.";
+"ui_just_now"="Recently";
+"ui_min_ago"="minute(s) ago";
+"ui_hour_ago"="hour(s) ago";
+"ui_day_ago"="day(s) ago";
+"ui_month_ago"="month(s) ago";
+"ui_year_ago"="year(s) ago";
+
+//新增
+"device_mine"="Me";
+"device_shared"="Share";
+
+//4.8.3新增
+"no_mic_permission" = "No microphone permissions";
+"not_support_talk" = "Equipment does not support intercom";
+
+//ap配网新增
+"wifi_info_no_wifi_msg" = "please connect Wi-Fi";
+"wifi_info_setting" = "setting";
+"wifi_mode_select_msg" = "select config mode";
+"wifi_mode_ap" = "AP config(blue shining)";
+"wifi_mode_normal" = "normal config(blue red shining)";
+"wifi_mode_wifi_connect" = "connect Wi-Fi of device";
+"wifi_step_two_msg" = "Enter Wi-Fi setting of iPhone,connect Wi-Fi:%@ with password above.";
+"wifi_ap_add_device_title"="adding device";
+"wifi_mode_sound"="sound config(blue red shining)";
+"wifi_mode_line"="line connect";

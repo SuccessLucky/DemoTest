@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kzksmarthome.common.biz.widget.KeyboardRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indexbg">
+
+
+    <!--<ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_login_icon_close"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/margin_45px"
+            android:layout_marginLeft="@dimen/margin_45px"/>-->
+
+    <com.kzksmarthome.common.biz.widget.YScrollLinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_90px"
+        android:paddingRight="@dimen/margin_90px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="490">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/login_top_icon" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:id="@+id/login_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <com.kzksmarthome.common.biz.widget.EditTextWithDel
+                android:id="@+id/login_name"
+                style="@style/login_edittext"
+                android:background="@drawable/login_edit_bg"
+                android:layout_height="46dp"
+                android:digits="\@-+._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ"
+                android:drawableLeft="@drawable/phone_icon"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="@string/phone_numer_str"
+                android:imeOptions="actionNext" />
+
+
+
+            <com.kzksmarthome.common.biz.widget.EditTextWithDel
+                android:id="@+id/login_identify_code"
+                style="@style/login_edittext"
+                android:layout_height="46dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/login_edit_bg"
+                android:drawableLeft="@drawable/pwd_icon"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="@string/login_pwd_str"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword" />
+
+
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/single_line_height_132px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/start_login_str" />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:id="@+id/go_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="@string/goto_register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16sp" />
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/forget_psw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:gravity="right"
+                    android:text="@string/forget_psw"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="270"
+            android:orientation="vertical">
+        </LinearLayout>
+    </com.kzksmarthome.common.biz.widget.YScrollLinearLayout>
+
+</com.kzksmarthome.common.biz.widget.KeyboardRelativeLayout>

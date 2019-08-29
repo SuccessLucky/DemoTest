@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 公共 -->
+    <string name="app_name">KZK智能</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ch">ch_1</string>
+    <string name="guide_go">立即进入</string>
+    <string name="phone_numer_str">手机号</string>
+    <string name="login_pwd_str">密码</string>
+    <string name="input_security_code">输入验证码*</string>
+    <string name="get_security_code">获取验证码</string>
+    <string name="reget_security_code">再次获取</string>
+    <string name="get_security_code_time">秒有效时间</string>
+    <string name="phone_is_error">请输入正确的手机号码!</string>
+    <string name="sms_is_null">请输入验证码!</string>
+    <string name="pwd_is_null">请输入密码!</string>
+    <string name="bt_ok_str">确定</string>
+    <string name="hint_fail">操作失败！</string>
+    <string name="hint_summit">正在提交.....</string>
+    <string name="hint_cannel">取消</string>
+    <string name="bt_summit_str">提交</string>
+    <string name="edit_str">编辑</string>
+    <string name="delete_str">删除</string>
+    <string name="loading_str">正在操作，请稍候……</string>
+    <string name="complete_str">完成</string>
+    <string name="sorry_str">对不起，出错了</string>
+
+    <integer name="guide_version">1</integer>
+    <!-- 主界面页面 -->
+    <string name="back_btn">返回</string>
+    <string name="quit_toast">再按一次退出</string>
+    <string name="msg_detail">消息详情</string>
+    <string name="submit">提交</string>
+    <string name="tab_control">首页</string>
+    <string name="tab_device">设备</string>
+    <string name="tab_scene">场景</string>
+    <string name="tab_setting">我的</string>
+    <!-- 启动界面 -->
+    <string name="start_login_str">登录</string>
+    <string name="start_register_str">注册</string>
+    <!-- 注册界面 -->
+    <string name="register_title">注册</string>
+    <string name="register_name">姓名</string>
+    <string name="register_address">地址</string>
+    <string name="register_get_address">请选择地址</string>
+    <string name="register_success_str">恭喜您注册成功！</string>
+    <string name="register_start_using">开始使用</string>
+    <string name="register_address_hint_tv">请补全小区及门牌号</string>
+    <string name="register_select_address_str">地址选择</string>
+    <!-- 控制界面 -->
+    <string name="control_water_temperature_str">水温</string>
+    <string name="control_seat_temperature_str">座温</string>
+    <string name="control_nozzle_position_str">喷头位置</string>
+    <string name="control_nozzle_clean_str">喷头清洁</string>
+    <string name="control_knead_str">按摩</string>
+    <string name="control_flush_str">自动冲水</string>
+    <string name="control_lighting_str">照明</string>
+    <string name="control_tu_clean_str">臀部清洗</string>
+    <string name="control_nv_clean_str">女性专用</string>
+    <string name="control_kf_clean_str">宽幅清洗</string>
+    <string name="control_hg_clean_str">烘干</string>
+
+    <!-- 反馈 -->
+    <string name="feedback_add_bt_str">我有话说</string>
+    <string name="feedback_add_title">添加反馈</string>
+    <string name="feedback_name">姓名*</string>
+    <string name="feedback_address">地址*</string>
+    <string name="feedback_address_edit_hint">请输入反馈内容</string>
+    <string name="feedback_hint">加星号的为必填</string>
+    <string name="feedback_content_hint">请输入反馈内容！</string>
+    <string name="feedback_name_hint">请输入姓名！</string>
+    <string name="feedback_succ_hint">提交反馈成功！</string>
+    <string name="feedback_address_hint">请输入地址！</string>
+    <string name="upload_photo_title">上传施工照片</string>
+    <string name="watch_picture">预览照片</string>
+    <string name="upload_add_photo">添加照片</string>
+    <string name="upload_photograph">拍摄照片</string>
+    <string name="upload_add_sure">确定添加（%1$s）</string>
+    <string name="upload_preview">预览</string>
+    <string name="upload_category_title">对应工艺</string>
+    <string name="upload_sure">确定上传</string>
+    <string name="upload_category_select_title">请选择</string>
+    <string name="upload_category_select_tip">（必选）</string>
+    <string name="upload_max_num_tip">最多只能选择%1$s张</string>
+    <string name="index_of_length">%1$s/%2$s</string>
+
+    <!-- 设置界面 -->
+    <string name="setting_check_str">正品验证</string>
+    <string name="setting_about_str">关于ARROW</string>
+    <string name="setting_add_arrow_title">添加</string>
+    <string name="setting_my_arrow_title">我的马桶</string>
+    <string name="setting_check_arrow_bt">验证</string>
+    <string name="setting_check_arrow_now">正在验证</string>
+    <string name="setting_about_weixin_str">关注微信</string>
+    <string name="setting_about_share_str">分享给朋友</string>
+
+    <string name="setting_gw_switch_str">切换网关</string>
+    <string name="setting_rights_manage_str">权限管理</string>
+    <string name="setting_smart_manage_str">智能管理</string>
+    <string name="setting_security_manage_str">安防管理</string>
+    <string name="setting_setting_str">设置</string>
+    <string name="setting_logout_str">退出登录</string>
+    <string name="setting_gw_id_str">网关ID:%1$s</string>
+
+    <string name="setting_push_switch_str">是否推送</string>
+    <string name="setting_vibrate_switch_str">振动</string>
+    <string name="setting_ringtone_select_str">声音选择</string>
+
+    <string name="setting_ringtone_alarm_str">报警</string>
+    <string name="setting_ringtone_keypad_str">按键</string>
+    <string name="setting_ringtone_offline_str">掉线</string>
+    <string name="setting_ringtone_default_str">默认</string>
+    <string name="user_admin_str">管理员</string>
+    <string name="user_user_str">用户</string>
+
+    <string name="please_select_gw">请选择网关</string>
+
+    <!-- 设备列表 -->
+    <string name="edit_arrow_title">编辑</string>
+    <string name="commit_arrow_title">完成</string>
+
+    <!-- 正品验证 -->
+    <string name="check_fail">验证失败！</string>
+    <string name="check_succ">正品</string>
+
+    <!--     消息 -->
+    <string name="notice_msg">新消息</string>
+    <string name="share_window_title_str">分享给朋友</string>
+    <string name="notice_have_new_dispatch">有新消息</string>
+    <string name="notice_have_new_dispatch_title">新消息</string>
+    <string name="msg_share">分享</string>
+
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+    <!-- 空调控制-->
+    <string name="air_mode_str">模式</string>
+    <string name="air_wind_speed_str">风速</string>
+    <string name="air_wind_updown_str">上下摆风</string>
+    <string name="air_wind_leftright_str">左右摆风</string>
+    <string name="air_condition_str">空调</string>
+    <string name="air_off_str">空调处于关闭状态</string>
+    <string name="air_wind_audo_str">自动</string>
+    <string name="air_wind_high_str">高速</string>
+    <string name="air_wind_middle_str">中速</string>
+    <string name="air_wind_low_str">低速</string>
+    <string name="air_mode_cold_str">制冷</string>
+    <string name="air_mode_hot_str">制热</string>
+    <string name="air_mode_wind_str">送风</string>
+    <string name="air_mode_xeransis_str">除湿</string>
+
+    <!-- 门锁控制-->
+    <string name="lock_pwd_hint_str">请输入密码</string>
+    <string name="lock_del_str">删除</string>
+    <string name="lock_open_str">开锁</string>
+
+    <!-- 电视控制 -->
+    <string name="learn_str">学习</string>
+    <string name="cmd_add_str">添加按键</string>
+    <string name="cmd_edit_str">编辑按键</string>
+    <string name="cmd_edittext_hint_str">请输入按键的名字</string>
+
+    <!--安防管理-->
+    <string name="security_contact_add_str">添加安防联系电话</string>
+    <string name="security_contact_edit_str">编辑安防联系电话</string>
+    <string name="security_contact_hint_str">请输入安防联系电话</string>
+
+    <!--权限管理-->
+    <string name="user_add_str">添加用户</string>
+    <string name="user_edit_str">编辑用户</string>
+    <string name="user_name_hint_str">请输入子账号姓名</string>
+    <string name="user_phone_hint_str">请输入子账号电话号码</string>
+    <string name="user_pwd_hint_str">请输入子账号密码</string>
+    <string name="setting_smart_rights_list_str">权限列表</string>
+    <string name="scene_mode_str">场景模式</string>
+    <string name="scene_rights_list_str">场景列表</string>
+    <string name="device_rights_list_str">设备列表</string>
+    <string name="family_user_del_title_str">确定要删除"%1$s"吗？</string>
+    <string name="device_rights_empty_str">您还未添加设备</string>
+    <string name="scene_rights_empty_str">您还未添加场景</string>
+    <string name="gw_del_title_str">确定要删除此网关吗？</string>
+    <string name="floor_del_title_str">确定要删除此楼层吗？</string>
+
+    <!--智能管理-->
+    <string name="floor_add_str">添加楼层</string>
+    <string name="floor_edit_str">编辑楼层</string>
+    <string name="floor_add_name_hint_str">请输入楼层名称</string>
+
+    <string name="room_add_str">添加房间</string>
+    <string name="room_edit_str">编辑房间</string>
+    <string name="room_add_name_hint_str">请输入房间名称</string>
+    <string name="room_add_type_hint_str">请选择房间类型</string>
+
+    <string name="device_add_str">添加设备</string>
+    <string name="device_edit_str">编辑设备</string>
+    <string name="device_add_name_hint_str">请输入设备名称</string>
+    <string name="device_add_type_hint_str">请选择设备图片</string>
+    <string name="device_ctr_type_str">设备类型</string>
+    <string name="ctr_type_normal_str">常用设备</string>
+    <string name="ctr_type_air_str">空调</string>
+    <string name="ctr_type_infrared_str">其他红外设备</string>
+
+    <!--注册登陆-->
+    <string name="psw_no_match">两次输入密码不一致</string>
+    <string name="send_sms_again">重新发送</string>
+    <string name="send_sms_str">获取验证码</string>
+    <string name="send_sms_tip">已给您的手机号%1$s发送短信验证码</string>
+    <string name="register_and_login">完成注册并登录</string>
+    <string name="agree_text"><![CDATA[点击注册即表示已阅读并同意 meteo用户协议]]></string>
+    <string name="enter_mobile_error">请输入正确的手机号码！</string>
+    <string name="enter_nickname">请输入昵称</string>
+    <string name="enter_register_pwd">请输入密码</string>
+    <string name="enter_correct_pwd">请输入6-16密码</string>
+    <string name="register">注册</string>
+    <string name="enter_sms">请输入验证码</string>
+    <string name="login_ing_tip">登录中……</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="agree_content">用户协议</string>
+    <string name="mobile_error">请输入正确的手机号码！</string>
+    <string name="next_step">请输入注册时绑定的手机号</string>
+    <string name="forget_number_tip">如未绑定手机号，请联系400-086-2599找回</string>
+    <string name="check_token_tip"><![CDATA[>正在验证]]></string>
+    <string name="input_register_number">请输入手机号码</string>
+    <string name="enter_mobile">请输入手机号码</string>
+    <string name="enter_new_pwd">请输入新密码</string>
+    <string name="input_new_psw_again">再次输入密码</string>
+    <string name="reset_psw_submit">重置密码</string>
+    <string name="dialog_title_logout_confirm">是否确认退出登录？</string>
+
+    <string name="newt_stpe_str">下一步</string>
+    <string name="forget_pwd_str"><u>忘记密码</u></string>
+    <string name="go_register_str">没有账号？<font color='#0090FF'>去注册</font></string>
+    <string name="reset_pwd_str">找回密码</string>
+    <string name="reset_pwd_tip">找回密码中……</string>
+    <string name="reset_pwd_ok_tip">密码重置成功，请重新登陆</string>
+
+    <string name="forget_psw">忘记密码</string>
+    <string name="goto_register">注册</string>
+    <string name="find_psw">找回密码</string>
+    <string name="start_seting_iot">配置中，请稍后......</string>
+    <string name="no_wifi_ssid">请输入wifiSSID</string>
+    <string name="no_wifi_pwd">请输入wifi密码</string>
+    <string name="setting_iot_success">设置网关成功！</string>
+    <string name="setting_iot_fail">网关配置失败！</string>
+    <string name="setting_iot_hint">请检查指示灯是否在红灯闪烁状态</string>
+    <string name="txt_next">下一步</string>
+    <string name="iot_setting_5g_hint">暂时无法使用5G WLAN</string>
+    <string name="iot_setting_hint">若想使用其它账号连接，请切换WLAN</string>
+    <string name="enter_ssid">输入wifi的SSID</string>
+    <string name="enter_wifi_pwd">输入wifi密码</string>
+    <string name="iot_setting_title_str">设定网关</string>
+    <string name="index_changjin_str">常用场景</string>
+    <string name="send_msg_fail">发送失败！</string>
+    <string name="finish_str">完成</string>
+    <string name="eidt_str">编辑</string>
+    <string name="add_str">添加</string>
+    <string name="scene_add_name_str">输入场景名称</string>
+    <string name="get_weather_fail_str">获取天气预报数据失败！</string>
+    <string name="humidity_format_str">湿度%1$s</string>
+    <string name="brand_type_title">设置空调类型</string>
+    <string name="enter_wifi_port">端口(默认3000)</string>
+
+    <!--场景-->
+    <string name="scene_img_select_str">选择场景图</string>
+    <string name="scene_img_empty_str">请选择场景图</string>
+    <string name="scene_name_empty_str">请输入场景名称</string>
+    <string name="scene_add_succ_str">场景添加成功</string>
+    <string name="scene_update_succ_str">场景修改成功</string>
+    <string name="scene_del_title_str">确定删除“%1$s”吗？</string>
+    <string name="scene_del_hint_str">删除此模式将同时删除其数据</string>
+    <string name="brand_content_ok">空调是否有响应</string>
+    <string name="scene_device_empty_str">您还未向该场景添加设备</string>
+    <string name="scene_favorite_str">是否常用</string>
+
+    <!--设备-->
+    <string name="device_droplight">吊灯</string>
+    <string name="device_tablelamp">台灯</string>
+    <string name="device_curtain">窗帘</string>
+    <string name="device_door">门</string>
+    <string name="device_aircondition">空调</string>
+    <string name="device_tv">电视</string>
+    <string name="device_light">灯光</string>
+    <string name="device_smokesensor">烟雾感应器</string>
+    <string name="device_gassensor">燃气感应器</string>
+    <string name="device_wartercontroler">水浸控制器</string>
+    <string name="device_outlet">插座</string>
+    <string name="device_doorandwindow">门窗磁</string>
+    <string name="device_windrain">风雨感应器</string>
+    <string name="device_infrared">红外探测器</string>
+    <string name="device_translatwindow">平移窗</string>
+    <string name="device_soundlight">声光报警</string>
+    <string name="device_lock">锁</string>
+    <string name="device_pushwindow">推拉窗</string>
+    <string name="device_tempandhumidity">温湿度</string>
+    <string name="device_dvd">DVD</string>
+    <string name="device_settopbox">机顶盒</string>
+    <string name="device_projector">投影仪</string>
+    <string name="device_sound">音响</string>
+    <string name="device_fan">风扇</string>
+    <string name="device_backgroundmusic">背景音乐</string>
+    <string name="door_access_count">开门%1$s次</string>
+    <string name="doorlock_contact_add_str">添加门锁联系人</string>
+    <string name="doorlock_contact_edit_str">编辑门锁联系人</string>
+    <string name="doorlock_username_hint_str">请输入开锁人的名字</string>
+    <string name="doorlock_id_hint_str">请输入ID号</string>
+    <string name="enter_doorlock_pwd">请输入开锁密码</string>
+    <string name="confirm_doorlock_pwd">确认开锁密码</string>
+
+    <string name="device_switch">开/关</string>
+    <string name="device_switch_nodelete">开/关按钮不允许删除</string>
+    <string name="device_switch_noedit">开/关按钮不允许修改</string>
+    <string name="device_switch_exist">开/关按钮已经存在</string>
+    <string name="warning_title">报警</string>
+    <string name="loading_fail">加载失败！</string>
+    <string name="no_red_forward">没有红外转发设备！</string>
+    <string name="cl_zz_string">正转</string>
+    <string name="cl_zz_open">开</string>
+    <string name="cl_zz_close">关</string>
+    <string name="cl_zz_stop">停</string>
+    <string name="get_gw_mac_succ">获取网关mac地址成功</string>
+    <string name="loading_zw_sb">等待指纹上报</string>
+    <string name="add_gw_str">添加网关</string>
+    <string name="socket_fial_go_remote">连接网关失败,是否连接远程？</string>
+    <string name="no_add_button_hint">请先添加红外按键！</string>
+    <string name="add_power_button_hint">请先添加并学习开/关键！</string>
+    <string name="connect_net_work_str">网关连接异常，请重试！</string>
+    <string name="connect_net_work_succ_str">网关连接成功！</string>
+    <string name="send_loading_str">命令发送中......</string>
+    <string name="air_condition_not_open_str">请先打开空调！</string>
+    <string name="add_sensor_4030_hint">注意联动场景需要添加传感器！</string>
+    <string name="scene_set_fail_hint">场景配置失败,请重试！</string>
+    <string name="scene_is_max_hint">场景设备不能大于30个</string>
+    <string name="aircondition_is_colse_str">空调已关闭</string>
+    <string name="no_more_sceon_device_str">请只选择一个联动设备！</string>
+    <string name="liandong_device_str">联动设备</string>
+    <string name="kz_device_str">控制设备</string>
+    <string name="scene_no_device_str">场景不能没有控制设备</string>
+    <string name="bf_succ_hint_str">布防成功！</string>
+    <string name="cf_succ_hint_str">撤防成功！</string>
+    <string name="network_error_tv">网关连接中请稍后...........</string>
+    <string name="cf_str">已撤防</string>
+    <string name="bf_str">已布防</string>
+    <string name="scene_cf_str">撤防有效</string>
+    <string name="scene_bf_str">布防有效</string>
+    <string name="scene_ld_str">联动</string>
+    <string name="scene_ys_str">延时/s</string>
+    <string name="scene_ds_str">定时</string>
+    <string name="cf_faill_str">撤防失败！</string>
+    <string name="bf_faill_str">布防失败！</string>
+    <string name="scene_4040_open_str">打开</string>
+    <string name="scene_4040_close_str">关闭</string>
+    <string name="scene_need_add_link_device">请添加联动设备!</string>
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="text_begin">请开始说话…</string>
+
+
+    <!-- 语言 -->
+    <string-array name="language_entries">
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>mandarin</item>
+        <item>cantonese</item>
+        <item>en_us</item>
+    </string-array>
+
+    <!-- 标点符号 -->
+    <string-array name="punc_entries">
+        <item>有标点</item>
+        <item>无标点</item>
+    </string-array>
+
+    <string-array name="punc_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="dwa_entries">
+        <item>开启</item>
+        <item>关闭</item>
+    </string-array>
+    <string name="pref_title_iat_show">显示听写界面</string>
+    <string name="app_id">591ea7e1</string>
+    <string name="tab_voice">语音</string>
+    <string name="open_lock_str">开锁中请稍后...</string>
+    <string name="send_str">正在发送........</string>
+    <string name="setting_iot_time_out_string">网络繁忙，请重试！</string>
+    <string name="device_title_str">设备</string>
+    <string name="user_center_title_str">我的</string>
+    <string name="liftAlarm_str">解除告警</string>
+    <string name="close_warring_hint_str">解除告警........</string>
+</resources>

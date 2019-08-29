@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SecurityHeaderView" id="iN0-l3-epB" customClass="SecurityHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="257"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="安防" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2A-3R-23f">
+                    <rect key="frame" x="25" y="50" width="79" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="79" id="NJ9-h9-kZO"/>
+                        <constraint firstAttribute="height" constant="38" id="eLp-J2-Log"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXD-QH-h7S">
+                    <rect key="frame" x="20" y="102" width="93" height="0.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Wra-LH-kzN"/>
+                        <constraint firstAttribute="width" constant="93" id="pua-Xd-SFe"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="已撤防" translatesAutoresizingMaskIntoConstraints="NO" id="SyC-Zj-yxa">
+                    <rect key="frame" x="200" y="83" width="144" height="144"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="144" id="kRx-hk-W2L"/>
+                        <constraint firstAttribute="height" constant="144" id="ueW-Px-1Sa"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rx-ap-sOY">
+                    <rect key="frame" x="16" y="133" width="79" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="JsZ-ds-aKt"/>
+                        <constraint firstAttribute="width" constant="79" id="sMS-hn-PyM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" image="组30"/>
+                    <state key="selected" image="组31"/>
+                    <connections>
+                        <action selector="btnArmOrDisarm:" destination="iN0-l3-epB" eventType="touchUpInside" id="kfO-CK-R2P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4n-JP-uQf">
+                    <rect key="frame" x="311" y="64" width="33" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="33" id="fn2-Lh-OxZ"/>
+                        <constraint firstAttribute="height" constant="33" id="m7v-rx-zzh"/>
+                    </constraints>
+                    <state key="normal" image="xfAlarmPr"/>
+                    <connections>
+                        <action selector="btnCancellAlarm:" destination="iN0-l3-epB" eventType="touchUpInside" id="31a-tN-rH3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="K4n-JP-uQf" secondAttribute="trailing" constant="31" id="9KU-Me-xSL"/>
+                <constraint firstItem="zXD-QH-h7S" firstAttribute="top" secondItem="i2A-3R-23f" secondAttribute="bottom" constant="14" id="HIk-Lo-3KC"/>
+                <constraint firstItem="zXD-QH-h7S" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="NQG-2e-URF"/>
+                <constraint firstItem="1Rx-ap-sOY" firstAttribute="top" secondItem="zXD-QH-h7S" secondAttribute="bottom" constant="30.5" id="OWc-Om-BA0"/>
+                <constraint firstItem="K4n-JP-uQf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="hck-Iy-LTa"/>
+                <constraint firstItem="1Rx-ap-sOY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="ii5-vB-35U"/>
+                <constraint firstAttribute="trailing" secondItem="SyC-Zj-yxa" secondAttribute="trailing" constant="31" id="mYg-3f-Icd"/>
+                <constraint firstItem="i2A-3R-23f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="qK0-Io-2ta"/>
+                <constraint firstItem="i2A-3R-23f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="qNe-4Q-XEs"/>
+                <constraint firstItem="SyC-Zj-yxa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="83" id="qR7-tj-0Ao"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnArmingOrDisarm" destination="1Rx-ap-sOY" id="Zsd-yn-tU1"/>
+                <outlet property="imageArmingOrDisarm" destination="SyC-Zj-yxa" id="mRg-FP-war"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="89.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xfAlarmPr" width="22" height="22"/>
+        <image name="已撤防" width="144" height="144"/>
+        <image name="组30" width="79" height="45"/>
+        <image name="组31" width="79" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--<GridView
+        android:id="@+id/room_manage_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:columnWidth="107dp"
+        android:listSelector="@null"
+        android:numColumns="3"/>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/title_layout"
+        android:id="@+id/smart_room_manage_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

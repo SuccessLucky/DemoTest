@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 首页 -->
+    <style name="titlebar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:background">@color/setting_black</item>
+    </style>
+
+    <style name="main_tv_black_16sp">
+        <item name="android:textSize">@dimen/textsize_16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="main_tv_gray_16sp">
+        <item name="android:textSize">@dimen/textsize_16sp</item>
+        <item name="android:textColor">@color/secondary_gray</item>
+    </style>
+
+    <style name="personal_page_top_line" parent="@style/horizontal_line">
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="personal_page_bottom_line" parent="@style/horizontal_line">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="vertical_line">
+        <item name="android:layout_width">@dimen/line_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_color_gray</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/line_color_gray</item>
+    </style>
+
+    <style name="project_setting_tv" parent="@style/main_tv_black_16sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="personal_setting_tv" parent="@style/project_setting_tv">
+        <item name="android:layout_marginLeft">@dimen/margin_48px</item>
+    </style>
+
+
+    <style name="transparent_dialog" parent="@android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="white_bg_dialog" parent="@android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/progress_img_popbg</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+        <!-- 空白页 -->
+    <style name="empty_tv" parent="@style/main_tv_gray_16sp">
+        <item name="android:id">@id/empty_tv</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/margin_30px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/empty_no_data</item>
+        <item name="android:drawableTop">@drawable/blank_img_blank</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+        <!-- 空白页 -->
+    <style name="error_tv" parent="@style/empty_tv">
+        <item name="android:id">@id/error_tv</item>
+        <item name="android:text">@string/load_fail_click_reload</item>
+        <item name="android:drawableTop">@drawable/blank_img_failed</item>
+    </style>
+</resources>

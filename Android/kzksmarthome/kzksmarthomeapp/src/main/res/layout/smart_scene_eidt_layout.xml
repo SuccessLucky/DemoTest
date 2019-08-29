@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/tab_scene"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/title_right_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="完成"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/scene_edit_layout_bg2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/smart_scene_edit_im"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/scene_add_im" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+
+                        <ImageView
+                            android:id="@+id/smart_scene_edit_name_im"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingBottom="13dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingTop="13dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/scene_edit_im" />
+
+                        <EditText
+                            android:id="@+id/smart_scene_edit_name_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@id/smart_scene_edit_name_im"
+                            android:background="@null"
+                            android:enabled="false"
+                            android:gravity="left|center_vertical"
+                            android:hint="@string/scene_add_name_str"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_90"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/line_color_gray"></View>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:id="@+id/smart_scene_favorite_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:hint="@string/scene_favorite_str"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_90"
+                            android:textSize="14sp" />
+
+                        <ImageButton
+                            android:id="@+id/smart_scene_favorite_ib"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/smart_check_off"
+                            android:clickable="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:id="@+id/smart_scene_ld_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:hint="@string/scene_ld_str"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_90"
+                            android:textSize="14sp" />
+
+                        <ImageButton
+                            android:id="@+id/smart_scene_ld_ib"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/smart_check_off"
+                            android:clickable="true" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/line_color_gray"></View>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/line_color_gray"></View>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:id="@+id/smart_scene_ys_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:hint="@string/scene_ys_str"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_90"
+                            android:textSize="14sp" />
+
+                        <ImageButton
+                            android:id="@+id/smart_scene_ys_ib"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/smart_check_off"
+                            android:clickable="true" />
+
+                        <TextView
+                            android:layout_toLeftOf="@id/smart_scene_ys_ib"
+                            android:id="@+id/smart_scene_ys_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="选择时间"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/smart_scene_ys_tv"
+                            android:layout_toEndOf="@+id/smart_scene_ys_tv" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/line_color_gray"></View>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:id="@+id/smart_scene_ds_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:hint="@string/scene_ds_str"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_90"
+                            android:textSize="14sp" />
+
+                        <ImageButton
+                            android:id="@+id/smart_scene_ds_ib"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/smart_check_off"
+                            android:clickable="true" />
+
+                        <TextView
+                            android:id="@+id/smart_scene_ds_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@id/smart_scene_ds_ib"
+                            android:layout_toRightOf="@id/smart_scene_ds_tv"
+                            android:gravity="center"
+                            android:paddingLeft="14dp"
+                            android:text="选择时间"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_ld_control"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/line_color_gray"></View>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/smart_scene_bf_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:hint="@string/scene_bf_str"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray_90"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/smart_scene_bf_ib"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/smart_check_off"
+                        android:clickable="true" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/line_color_gray"></View>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/smart_scene_cf_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:hint="@string/scene_cf_str"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray_90"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/smart_scene_cf_ib"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/smart_check_off"
+                        android:clickable="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/scene_ld_layout"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/scene_edit_layout_bg"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/add_ld_title_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:id="@+id/icon_scene_ld_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/scene_ld_im" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/icon_scene_ld_title"
+                        android:text="@string/liandong_device_str"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/icon_scene_ld_title_add"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/scene_add_im" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/line_color_gray"></View>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/smart_scene_ld_edit_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scene_edit_layout_bg2"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/add_kz_title_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:id="@+id/icon_scene_kz_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/scene_kz_im" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/icon_scene_kz_title"
+                        android:text="@string/kz_device_str"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/icon_scene_kz_title_add"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/scene_add_im" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/line_color_gray"></View>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/smart_scene_edit_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

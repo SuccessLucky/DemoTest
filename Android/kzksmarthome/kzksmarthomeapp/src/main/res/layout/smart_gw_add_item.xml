@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart_gw_add"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:background="@drawable/list_item_background"
+    android:text="@string/add_gw_str"
+    >
+</TextView>

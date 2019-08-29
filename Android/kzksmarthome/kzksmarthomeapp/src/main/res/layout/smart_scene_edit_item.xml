@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart_scene_edit_device_layout"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="vertical">
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/line_color_gray3"></View>
+
+    <ImageView
+        android:id="@+id/smart_scene_edit_device_im"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_toRightOf="@id/smart_scene_edit_device_im"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/smart_scene_edit_device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black_20"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/smart_scene_edit_device_lc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:textColor="@color/color_666666"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/jt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:visibility="invisible"
+            android:src="@drawable/cj_go_icon" />
+        <ImageView
+            android:id="@+id/on_off_im"
+            android:layout_toLeftOf="@id/jt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/smart_check_off"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:visibility="visible"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color_gray3"></View>
+    </RelativeLayout>
+
+</RelativeLayout>

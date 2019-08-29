@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_layout_style" >
+
+    <GridView
+        android:id="@+id/albums_grid"
+        style="@style/photo_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeLayout1"
+        android:background="@null"
+        android:clipToPadding="false"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:padding="5dp"
+        android:verticalSpacing="5dp" >
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        style="@style/bottom_toolbar" >
+
+        <Button
+            android:id="@+id/preview_btn"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_18px"
+            android:background="@drawable/selector_one_btn"
+            android:text="@string/photo_view_str"
+            android:textSize="@dimen/textsize_18sp" />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_18px"
+            android:background="@drawable/selector_one_btn"
+            android:text="@string/upload_add_sure"
+            android:textSize="@dimen/textsize_18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

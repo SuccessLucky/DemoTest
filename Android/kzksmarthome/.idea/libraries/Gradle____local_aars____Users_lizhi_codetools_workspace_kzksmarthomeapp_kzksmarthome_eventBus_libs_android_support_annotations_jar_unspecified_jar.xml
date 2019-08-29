@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/lizhi/codetools/workspace/kzksmarthomeapp/kzksmarthome/eventBus/libs/android-support-annotations.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/eventBus/libs/android-support-annotations.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

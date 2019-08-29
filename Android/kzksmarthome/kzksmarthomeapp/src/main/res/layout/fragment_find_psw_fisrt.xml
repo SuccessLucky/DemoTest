@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_layout_style" >
+
+    <View style="@style/personal_page_top_line"
+        android:id="@+id/find_psw_top_line"
+        android:layout_marginTop="@dimen/margin_40p"
+        />
+    <com.kzksmarthome.common.biz.widget.EditTextWithDel
+        android:id="@+id/register_number"
+        style="@style/login_edittext"
+        android:layout_height="46dp"
+        android:hint="@string/input_register_number"
+        android:paddingLeft="@dimen/margin_20p"
+        android:paddingRight="@dimen/margin_20p"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:layout_below="@+id/find_psw_top_line"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/secondary_gray" />
+    <View
+        style="@style/horizontal_line"
+        android:layout_below="@id/register_number"
+        />
+
+    <Button
+        android:id="@+id/next_step"
+        style="@style/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_small_height"
+        android:layout_below="@id/register_number"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_30p"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:text="@string/next_step" />
+    <TextView
+        android:id="@+id/forget_num_tip"
+        style="@style/main_tv_gray_14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/next_step"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_40p"
+        android:layout_marginTop="@dimen/margin_30p"
+        android:text="@string/forget_number_tip" />
+</RelativeLayout>

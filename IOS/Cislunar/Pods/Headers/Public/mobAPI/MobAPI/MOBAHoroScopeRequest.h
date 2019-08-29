@@ -1,0 +1,1 @@
+../../../../mobAPI/MobProducts/SDK/MobAPI/MobAPI.framework/Headers/MOBAHoroScopeRequest.h

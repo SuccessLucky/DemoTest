@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 填充颜色 -->
+    <solid android:color="@color/color_dc" />
+    <!-- 线的宽度，颜色灰色 -->
+    <stroke
+        android:width="0px"
+        android:color="@color/color_dc" />
+    <size
+        android:width="15dp"
+        android:height="15dp" />
+    <!-- 矩形的圆角半径 -->
+    <!--<corners android:radius="10dp" />-->
+</shape>

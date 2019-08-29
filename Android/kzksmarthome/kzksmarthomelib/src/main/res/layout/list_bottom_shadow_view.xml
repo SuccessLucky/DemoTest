@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_bottom_shadow_height"
+    android:minHeight="@dimen/list_bottom_shadow_height" >
+
+    <View
+        android:id="@+id/shadow_top_line"
+        style="@style/personal_page_top_line" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shadow_top_line"
+        android:background="@drawable/all_img_shadow" />
+
+</RelativeLayout>

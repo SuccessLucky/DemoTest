@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bg_layout_style" >
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:orientation="vertical" >
+
+        <View style="@style/personal_page_top_line" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/register_name"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_mobile"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColorHint="@color/secondary_gray" />
+
+        <View
+            style="@style/personal_page_top_line"
+            android:layout_marginLeft="@dimen/margin_30p" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/register_nickname"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_nickname"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColorHint="@color/secondary_gray" />
+
+        <View
+            style="@style/personal_page_top_line"
+            android:layout_marginLeft="@dimen/margin_30p" />
+
+        <com.kzksmarthome.common.biz.widget.EditTextWithDel
+            android:id="@+id/register_psw"
+            style="@style/login_edittext"
+            android:layout_height="46dp"
+            android:layout_marginLeft="@dimen/margin_30p"
+            android:layout_marginRight="@dimen/margin_30p"
+            android:hint="@string/enter_register_pwd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColorHint="@color/secondary_gray" />
+
+        <View style="@style/personal_page_top_line" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_step"
+        style="@style/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_small_height"
+        android:layout_below="@id/top_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_30p"
+        android:layout_marginRight="@dimen/margin_30p"
+        android:layout_marginTop="@dimen/margin_40p"
+        android:text="@string/newt_stpe_str" />
+
+</RelativeLayout>

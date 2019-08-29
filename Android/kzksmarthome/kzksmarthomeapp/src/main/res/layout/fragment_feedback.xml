@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/common_top_nav" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_bar"
+        android:background="@drawable/hui_bg" >
+
+        <RelativeLayout
+            android:id="@+id/feedback_add_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_90px"
+            android:layout_marginLeft="@dimen/margin_60px"
+            android:layout_marginRight="@dimen/margin_60px"
+            android:layout_marginTop="@dimen/margin_80px"
+            android:background="@drawable/selector_one_btn"
+            android:clickable="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/icon_shuo"
+                android:text="@string/feedback_add_bt_str"
+                android:textColor="@color/text_gary"
+                android:textSize="@dimen/textsize_16sp" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/feedback_list"
+            android:layout_width="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/feedback_add_bt"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart_device_manage_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="11dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginRight="18dp"
+    android:layout_marginTop="21dp">
+    <!--in.srain.cube.image.CubeImageView-->
+    <ImageView
+        android:id="@+id/smart_device_manage_im"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/smart_device_manage_item_red"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_red_dot_bg"
+        android:gravity="center"
+        android:text="一"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/smart_device_manage_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smart_device_manage_im"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

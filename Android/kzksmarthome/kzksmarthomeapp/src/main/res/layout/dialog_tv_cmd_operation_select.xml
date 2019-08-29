@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_operation_delete_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"><!--android:background="@drawable/shape_tv_operation_dialog_btn_normal_bg"-->
+
+        <RelativeLayout
+            android:id="@+id/tv_operation_delete_rl"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/selector_dialog_item_top_corner_round">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/delete_str"
+                android:textColor="@color/setting_black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/tv_operation_edit_rl"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/list_item_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/edit_str"
+                android:textColor="@color/setting_black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <RelativeLayout
+            android:id="@+id/tv_operation_learn_rl"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/selector_dialog_item_bottom_corner_round">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/learn_str"
+                android:textColor="@color/setting_black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tv_operation_cancel_rl"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_dialog_item_btn_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/hint_cannel"
+            android:textColor="#3CB3ED"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
