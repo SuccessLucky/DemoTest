@@ -11,7 +11,7 @@
     <properties>
         <!-- spring版本号 -->
         <spring.version>4.0.4.RELEASE</spring.version>
-        <hibernate.version>4.3.5.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.level>1.7</project.build.level>
         <warName>cmw_project</warName>
