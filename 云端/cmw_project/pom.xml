@@ -10,7 +10,7 @@
     <!-- 设置变量 -->
     <properties>
         <!-- spring版本号 -->
-        <spring.version>4.0.4.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <hibernate.version>4.3.5.Final</hibernate.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.level>1.7</project.build.level>
